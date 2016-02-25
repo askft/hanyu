@@ -1,0 +1,7 @@
+
+	TODO
+
+* Make an option for parsing "fake pinyin" (ï, í, î, ì)
+
+* Pretty printing: http://stackoverflow.com/questions/9535954/python-printing-lists-as-tabular-data/26937531#26937531
+
