@@ -6,9 +6,6 @@
 	'.__.--¨¨|_________________________|¨¨--.__.'
 
 
-(This list is (obviously) incomplete but there may also exist
-incomplete statements and stuff like that here.)
-
 Author:   Alexander Skafte
 Encoding: UTF-8
 Tab size: 8 spaces.
@@ -20,15 +17,15 @@ Tab size: 8 spaces.
 
 	Pronouns
 
-I, me			- wo			- 我
-you			- ni			- 你
+I, me			- wo3			- 我
+you			- ni3			- 你
 You			- nín			- 您
-he, him			- ta			- 他
-she, her		- ta			- 她
-we, us			- women			- 我们
-you [p]			- nimen			- 你们
-they, them [m]		- tamen			- 他们
-they, them [f]		- tamen			- 她们
+he, him			- ta1			- 他
+she, her		- ta1			- 她
+we, us			- wo3men		- 我们
+you [p]			- ni3men		- 你们
+they, them [m]		- ta1men		- 他们
+they, them [f]		- ta1men		- 她们
 
 
 	Persons
