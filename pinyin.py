@@ -60,7 +60,6 @@ def parse(input, output):
 	file = open(input, 'r')
 	pinyin = readPinyin(file)
 	for p in pairs:
-		print("p = %s\npairs[p] = %s\n" % (p, pairs[p]))
 		pinyin = pinyin.replace(p, pairs[p])
 	file.close()
 
