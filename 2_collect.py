@@ -17,8 +17,14 @@ def main(input, output):
 			if line.isspace() or iscomment(line):
 				continue
 
-			if iscategory(line):
+			if islanguage(line):
+				languages = ''.join(line.split(None, 1)[1]).rstrip()
+#				print("languages = %s" % languages)
+				outlines.append(IDENTIFIER_LANGUAGE + ' ' + languages)
+
+			elif iscategory(line):
 				category = ''.join(line.split(None, 1)[1]).rstrip()
+#				print("category = %s" % category)
 				outlines.append(IDENTIFIER_CATEGORY + ' ' + category)
 
 			else:

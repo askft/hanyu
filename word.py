@@ -5,13 +5,9 @@ class Word:
 	"""A Word is a collection of synonyms in different languages.
 	"""
 
-	def __init__(self, str, delimiter):
+	def __init__(self, list):
 		self.categories = []
-		self.delimiter = delimiter
-
-		langs     = split(str, delimiter)
-		self.list = [split(lang, ',') for lang in langs]
-
+		self.list = list
 #		print("Added definition:", self.list)
 
 	def add_category(self, category):

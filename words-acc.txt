@@ -15,17 +15,19 @@
 ; [m] = male
 ; [f] = female
 
+! English, Pīnyīn, 汉语
+
 #	Pronouns
 
 I, me			- wǒ			- 我
 you			- nǐ			- 你
 You			- nín			- 您
-he, him			- tā			- 他
-she, her		- tā			- 她
+he, him			- tā [m]		- 他
+she, her		- tā [f]		- 她
 we, us			- wǒmen			- 我们
 you [p]			- nǐmen			- 你们
-they, them [m]		- tāmen			- 他们
-they, them [f]		- tāmen			- 她们
+they [m], them [m]	- tāmen [m]			- 他们
+they [f], them [f]	- tāmen [f]			- 她们
 
 
 #	Persons
@@ -138,7 +140,7 @@ beer			- píjǐu			- 啤酒
 Chinese cuisine		- Zhōngguó cài		- 终归菜
 coffee			- kāfēi			- 咖啡
 french fries		- shǔtiáo		- 薯条
-food (rice, etc)	- fàn			- 饭
+food, rice		- fàn			- 饭
 juice			- guǒzh1		- 果汁
 milk			- niúnǎi		- 牛奶
 tea			- chá			- 茶
@@ -179,7 +181,7 @@ country, nation		- guó			- 国
 foreign language	- wàiyǔ			- 外语
 
 China			- Zhōngguó		- 中国
-Chinese person		- Zhōnggú4rén		- 中国人
+Chinese person		- Zhōnggúorén		- 中国人
 Chinese language	- Hànyǔ			- 汉语
 
 Japan			- rìběn			- 日本
