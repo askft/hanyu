@@ -37,7 +37,7 @@ pairs = {
 	'ü1' : 'ǖ',
 	'ü2' : 'ǘ',
 	'ü3' : 'ǚ',
-	'ü4' : 'ǜ'
+	'ü4' : 'ǜ',
 
 	'A1' : 'Ā',
 	'A2' : 'Á',
@@ -71,7 +71,7 @@ pairs = {
 }
 
 
-def parse(input, output):
+def main(input, output):
 
 	with open(input, 'r') as file:
 		pinyin = ''.join([line for line in file])
@@ -87,9 +87,5 @@ if __name__ == '__main__':
 	if len(sys.argv) != 3:
 		print("usage: python pinyin.py <input file> <output file>")
 		exit(1)
-	try:
-		parse(sys.argv[1], sys.argv[2])
-	except:
-		print("Unexpected error: %s" % sys.exc_info()[0])
-		exit(1)
+	main(sys.argv[1], sys.argv[2])
 

@@ -5,50 +5,58 @@ import sys
 from prettytable import PrettyTable
 
 
-COMMENT_IDENTIFIER = '#'
-WORD_DELIMITER = '-'
+COMMENT_IDENTIFIER	= '#'
+WORD_DELIMITER		= '-'
 
 
-def read(file):
-	str = ""
-	for line in file:
-		if not (line.isspace() or (line.lstrip()[0] == COMMENT_IDENTIFIER)):
-			str += line
-	return str
 
 
-def main(input):
+def table(list, header):
+	"""Return a new PrettyTable created from `list` and `header`.
+	"""
+	t = PrettyTable(header)
+	for element in list:
+		t.add_row(element)
+	return t
 
-	with open(input, 'r') as f:
-		str = read(f)
 
-	words = []
+def main(input, output):
 
-	lines = [line for line in str.splitlines() if line]
+	with open(input, 'r') as file:
 
-	for line in lines:
-		ws = [s.strip() for s in line.split(WORD_DELIMITER)]
-		if len(ws) != 3:
-			print("Fail:")
-			print(ws)
-			print("Exiting.")
-			exit(1)
-		words.append(ws)
+		def iscomment(line):
+			return line.lstrip()[0] == COMMENT_IDENTIFIER
 
-	t = PrettyTable(["English", "Pinyin", "汉语"])
-	for l in words:
-		print(l)
-		t.add_row(l)
-	print(t)
+		def ok(line):
+			return not (line.isspace() or iscomment(line))
+
+		def split(s):
+			"""Split a string "x - y - z" into a list ['x','y','z'].
+			"""
+			return [w.strip() for w in s.split(WORD_DELIMITER)]
+
+		# A triple is something like ['big', 'dà', '大'].
+		# `triples` is a list of such.
+		triples = [split(line) for line in file if ok(line)]
+
+	# Detect incomplete triples.
+	if not all([len(t) == 3 for t in triples]):
+		print("Length error.")
+		exit(1)
+
+	# Print a nice table. Unnecessary but fun.
+	print(table(triples, ["English", "Pinyin", "汉语"]))
+
+	# Write the triples to a file in a format that is easy to parse.
+	with open(output, 'w') as file:
+		for [a, b, c] in triples:
+			file.write("%s ; %s ; %s" % (a, b, c))
+			file.write(os.linesep)
 
 
 if __name__ == '__main__':
-	if len(sys.argv) != 2:
-		print("usage: python collect.py <input file>")
+	if len(sys.argv) != 3:
+		print("usage: python collect.py <input file> <output file>")
 		exit(1)
-	try:
-		main(sys.argv[1])
-	except:
-		print("Unexpected error: %s" % sys.exc_info()[0])
-		exit(1)
+	main(sys.argv[1], sys.argv[2])
 

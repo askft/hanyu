@@ -1,6 +1,9 @@
 
 	TODO
 
+* If a word contains a dash character ('-') the split will fail. Use another
+  delimiter, perhaps?
+
 * (Optional) Make an option for parsing "fake pinyin" (ï, í, î, ì), such as
   {
   	'ä' : 'ā',
