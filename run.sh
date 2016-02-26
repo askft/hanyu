@@ -1,6 +1,6 @@
 
 #!/bin/bash
 
-python convert.py vocab.txt pinyin.txt
-python collect.py pinyin.txt nice.txt
+python convert.py pinyin-num.txt pinyin-acc.txt
+python collect.py pinyin-acc.txt pinyin-nice.txt
 

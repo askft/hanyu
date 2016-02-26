@@ -2,7 +2,7 @@
 import os
 import sys
 
-from prettytable import PrettyTable
+from prettytable import *
 
 
 COMMENT_IDENTIFIER	= '#'
@@ -15,6 +15,8 @@ def table(list, header):
 	t = PrettyTable(header)
 	for element in list:
 		t.add_row(element)
+	t.align = 'l'
+#	t.set_style(PLAIN_COLUMNS)
 	return t
 
 
@@ -43,7 +45,7 @@ def main(input, output):
 		exit(1)
 
 	# Print a nice table. Unnecessary but fun.
-	print(table(triples, ["English", "Pinyin", "汉语"]))
+#	print(table(triples, ["English", "Pinyin", "汉语"]))
 
 	# Write the triples to a file in a format that is easy to parse.
 	with open(output, 'w') as file:
