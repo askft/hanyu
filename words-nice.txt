@@ -1,200 +1,200 @@
 # Pronouns
-I, me ; wǒ ; 我
-you ; nǐ ; 你
-You ; nín ; 您
-he, him ; tā ; 他
-she, her ; tā ; 她
-we, us ; wǒmen ; 我们
-you [p] ; nǐmen ; 你们
-they, them [m] ; tāmen ; 他们
-they, them [f] ; tāmen ; 她们
+I, me | wǒ | 我
+you | nǐ | 你
+You | nín | 您
+he, him | tā | 他
+she, her | tā | 她
+we, us | wǒmen | 我们
+you [p] | nǐmen | 你们
+they, them [m] | tāmen | 他们
+they, them [f] | tāmen | 她们
 # Persons
-friend ; péngyou ; 朋友
-male ; nán ; 男
-female ; nǚ ; 女
+friend | péngyou | 朋友
+male | nán | 男
+female | nǚ | 女
 # Family
-father ; bàba ; 爸爸
-mother ; māma ; 妈妈
-siblings ; xiōngdijiěmèi ; 兄弟姐妹
-older brother ; gēge ; 哥哥
-older sister ; jiějie ; 姐姐
-younger brother ; dìdi ; 弟弟
-younger sister ; mèimei ; 妹妹
-mother's mother ; nǎinai ; 奶奶
-father's mother ; lǎolao, wàipó ; 姥姥, 外婆
-mother's father ; yéye ; 爷爷
-mother's mother ; lǎoye, wàigōng ; 姥爷, 外公
+father | bàba | 爸爸
+mother | māma | 妈妈
+siblings | xiōngdijiěmèi | 兄弟姐妹
+older brother | gēge | 哥哥
+older sister | jiějie | 姐姐
+younger brother | dìdi | 弟弟
+younger sister | mèimei | 妹妹
+mother's mother | nǎinai | 奶奶
+father's mother | lǎolao, wàipó | 姥姥, 外婆
+mother's father | yéye | 爷爷
+mother's mother | lǎoye, wàigōng | 姥爷, 外公
 # Occupations
-student ; xuéshēng ; 学生
-teacher ; lǎoshī ; 老师
-doctor ; yīshēng ; 医生
-businessman ; shāngrén ; 商人
-engineer ; gōngchéngshī ; 工程师
+student | xuéshēng | 学生
+teacher | lǎoshī | 老师
+doctor | yīshēng | 医生
+businessman | shāngrén | 商人
+engineer | gōngchéngshī | 工程师
 # Numbers and counting
-0 ; líng ; 零
-1 ; yī ; 一
-2 ; èr ; 二
-3 ; sān ; 三
-4 ; sì ; 四
-5 ; wǔ ; 五
-6 ; liù ; 六
-7 ; qī ; 七
-8 ; bā ; 八
-9 ; jiǔ ; 九
-10 ; shí ; 十
-100 ; bǎi ; 百
-1000 ; qiān ; 千
-10000 ; wàn ; 万
+0 | líng | 零
+1 | yī | 一
+2 | èr | 二
+3 | sān | 三
+4 | sì | 四
+5 | wǔ | 五
+6 | liù | 六
+7 | qī | 七
+8 | bā | 八
+9 | jiǔ | 九
+10 | shí | 十
+100 | bǎi | 百
+1000 | qiān | 千
+10000 | wàn | 万
 # Time
-this (day/year) ; jīn ; 今
-this (week) ; běn ; 本
-recently ; zuìjìn ; 最近
-early, morning ; zǎo ; 早
-noon, midday ; wǔ ; 午
-late, evening, night ; wǎn ; 晚
-day ; tiān ; 天
-yesterday ; zuótiān ; 昨天
-today ; jīntiān ; 今天
-tomorrow ; míngtiān ; 明天
-year ; nián ; 年
-last year ; qùnián ; 去年
-this year ; jīnnián ; 今年
-next year ; míngnián ; 明年
-week ; xīngqī, zhōu ; 星期, 周
-Monday ; xīngqīyī ; 星期一
-Tuesday ; xīngqīèr ; 星期二
-Wednesday ; xīngqīsān ; 星期三
-Thursday ; xīngqīsì ; 星期四
-Friday ; xīngqīwǔ ; 星期五
-Saturday ; xīngqīliù ; 星期六
-Sunday ; xīngqītiān ; 星期天
+this (day/year) | jīn | 今
+this (week) | běn | 本
+recently | zuìjìn | 最近
+early, morning | zǎo | 早
+noon, midday | wǔ | 午
+late, evening, night | wǎn | 晚
+day | tiān | 天
+yesterday | zuótiān | 昨天
+today | jīntiān | 今天
+tomorrow | míngtiān | 明天
+year | nián | 年
+last year | qùnián | 去年
+this year | jīnnián | 今年
+next year | míngnián | 明年
+week | xīngqī, zhōu | 星期, 周
+Monday | xīngqīyī | 星期一
+Tuesday | xīngqīèr | 星期二
+Wednesday | xīngqīsān | 星期三
+Thursday | xīngqīsì | 星期四
+Friday | xīngqīwǔ | 星期五
+Saturday | xīngqīliù | 星期六
+Sunday | xīngqītiān | 星期天
 # Clock
-hour ; diǎn ; 点
-minute ; fēn ; 分
-second ; miǎo ; 秒
-quarter ; kè ; 刻
-half ; bàn ; 半
-short of ; chà ; 差
-two o'clock ; liǎngdiǎn ; 亮点
+hour | diǎn | 点
+minute | fēn | 分
+second | miǎo | 秒
+quarter | kè | 刻
+half | bàn | 半
+short of | chà | 差
+two o'clock | liǎngdiǎn | 亮点
 # Food and beverage
-alcohol, liquor ; jiǔ ; 酒
-beer ; píjǐu ; 啤酒
-Chinese cuisine ; Zhōngguó cài ; 终归菜
-coffee ; kāfēi ; 咖啡
-french fries ; shǔtiáo ; 薯条
-food (rice, etc) ; fàn ; 饭
-juice ; guǒzh1 ; 果汁
-milk ; niúnǎi ; 牛奶
-tea ; chá ; 茶
-water ; shuǐ ; 水
+alcohol, liquor | jiǔ | 酒
+beer | píjǐu | 啤酒
+Chinese cuisine | Zhōngguó cài | 终归菜
+coffee | kāfēi | 咖啡
+french fries | shǔtiáo | 薯条
+food (rice, etc) | fàn | 饭
+juice | guǒzh1 | 果汁
+milk | niúnǎi | 牛奶
+tea | chá | 茶
+water | shuǐ | 水
 # Question words
-how ; zěnmeyàng ; 怎么样
-what ; shénme ; 什么
-who ; shuí, shéi ; 谁
-which ; nǎ ; 哪
-where ; nǎr ; 哪儿
-why ; wèishénme ; 为什么
-how many, what, several ; jǐ ; 几
-how many, how much ; duōshǎo ; 多少
+how | zěnmeyàng | 怎么样
+what | shénme | 什么
+who | shuí, shéi | 谁
+which | nǎ | 哪
+where | nǎr | 哪儿
+why | wèishénme | 为什么
+how many, what, several | jǐ | 几
+how many, how much | duōshǎo | 多少
 # Places
-bookstore ; shūdiàn ; 书店
-café ; kāfēidiàn ; 咖啡厅
-library ; túshūguǎn ; 体术官
-park ; gōngyuán ; 公园
-restaurant ; fàndiàn ; 饭店
-school ; xuéxiào ; 学校
-supermarket ; chāoshì ; 超市
+bookstore | shūdiàn | 书店
+café | kāfēidiàn | 咖啡厅
+library | túshūguǎn | 体术官
+park | gōngyuán | 公园
+restaurant | fàndiàn | 饭店
+school | xuéxiào | 学校
+supermarket | chāoshì | 超市
 # Nationality
-country, nation ; guó ; 国
-foreign language ; wàiyǔ ; 外语
-China ; Zhōngguó ; 中国
-Chinese person ; Zhōnggú4rén ; 中国人
-Chinese language ; Hànyǔ ; 汉语
-Japan ; rìběn ; 日本
-Japanese person ; rìběnrén ; 日本人
-Japanese language ; rìyǔ ; 日语
-Sweden ; Ruìdiǎn ; 瑞典
-Swedish person ; Ruìdiǎnrén ; 瑞典人
-Swedish language ; Ruìdiǎnyǔ ; 瑞典语
+country, nation | guó | 国
+foreign language | wàiyǔ | 外语
+China | Zhōngguó | 中国
+Chinese person | Zhōnggú4rén | 中国人
+Chinese language | Hànyǔ | 汉语
+Japan | rìběn | 日本
+Japanese person | rìběnrén | 日本人
+Japanese language | rìyǔ | 日语
+Sweden | Ruìdiǎn | 瑞典
+Swedish person | Ruìdiǎnrén | 瑞典人
+Swedish language | Ruìdiǎnyǔ | 瑞典语
 # Uncategorized
-and ; hé ; 和
-also, too, as well ; yě ; 也
-correct, exactly ; duì ; 对
-yes ; shì ; 是
-no (past) ; méi ; 没
-no, not ; bù ; 不
-very, too, excessively ; tài ; 太
-that ; nà ; 那
-there ; nàr ; 那儿
-here ; zhèr ; 这儿
-this ; zhè ; 这
-some, few, several ; xiē ; 些
-years old ; suì ; 岁
+and | hé | 和
+also, too, as well | yě | 也
+correct, exactly | duì | 对
+yes | shì | 是
+no (past) | méi | 没
+no, not | bù | 不
+very, too, excessively | tài | 太
+that | nà | 那
+there | nàr | 那儿
+here | zhèr | 这儿
+this | zhè | 这
+some, few, several | xiē | 些
+years old | suì | 岁
 # Classifiers
-(general) ; gè ; 个
-family members ; kǒu ; 口
+(general) | gè | 个
+family members | kǒu | 口
 # Prepositions
-at, in, by ; zài ; 在
-on, upon ; shàng ; 上
-below, under ; xià ; 下
-in, inside, inner ; lǐ ; 里
-out, outside, outer ; wài ; 外
+at, in, by | zài | 在
+on, upon | shàng | 上
+below, under | xià | 下
+in, inside, inner | lǐ | 里
+out, outside, outer | wài | 外
 # Adjectives
-big ; dà ; 大
-busy ; máng ; 忙
-cold ; lěng ; 冷
-difficult, hard ; nán ; 难
-easy, simple ; jiǎndān ; 简单
-hot ; rè ; 热
-white ; bái ; 白
+big | dà | 大
+busy | máng | 忙
+cold | lěng | 冷
+difficult, hard | nán | 难
+easy, simple | jiǎndān | 简单
+hot | rè | 热
+white | bái | 白
 # Adverbs
-very ; hěn ; 很
-extremely ; fēicháng ; 非常
+very | hěn | 很
+extremely | fēicháng | 非常
 # Verbs
-be ; shì ; 是
-buy ; mǎi ; 买
-drink ; hē ; 喝
-eat ; chī ; 吃
-enter, come in ; jìn ; 进
-go ; qù ; 去
-have, exist ; yǒu ; 有
-like ; xǐhuān ; 喜欢
-live ; zhù ; 住
-put ; fàng ; 放
-read ; kàn ; 看
-return ; huí ; 回
-see, meet ; jiàn ; 见
-sit ; zuò ; 坐
-study ; xué ; 学
-throw ; rēng ; 扔
-work ; gōngzuò ; 工作
-want ; yào ; 要
-pluck ; tán, dàn ; 弹
+be | shì | 是
+buy | mǎi | 买
+drink | hē | 喝
+eat | chī | 吃
+enter, come in | jìn | 进
+go | qù | 去
+have, exist | yǒu | 有
+like | xǐhuān | 喜欢
+live | zhù | 住
+put | fàng | 放
+read | kàn | 看
+return | huí | 回
+see, meet | jiàn | 见
+sit | zuò | 坐
+study | xué | 学
+throw | rēng | 扔
+work | gōngzuò | 工作
+want | yào | 要
+pluck | tán, dàn | 弹
 # Other
-body, health ; shēntǐ ; 身体
-book ; shū ; 书
-child, kid ; háizi ; 孩子
-computer ; diànnǎo ; 电脑
-computer science ; jìsuànjī kēxué ; 计算机科学
-horse ; mǎ ; 马
-mouth ; kǒu ; 口
-guitar ; jítā ; 吉他
-sun ; rì ; 日
-please ; qǐng ; 请
-breakfast ; zǎofàn ; 早饭
-lunch ; wǔfàn ; 午饭
-dinner ; wànfàn ; 晚饭
+body, health | shēntǐ | 身体
+book | shū | 书
+child, kid | háizi | 孩子
+computer | diànnǎo | 电脑
+computer science | jìsuànjī kēxué | 计算机科学
+horse | mǎ | 马
+mouth | kǒu | 口
+guitar | jítā | 吉他
+sun | rì | 日
+please | qǐng | 请
+breakfast | zǎofàn | 早饭
+lunch | wǔfàn | 午饭
+dinner | wànfàn | 晚饭
 # Common phrases
-hello ; ni hao ; 你好
-goodbye ; zàijiàn ; 再见
-how are you? ; nǐ hǎo ma? ; 你好吗？
-what about you? ; nǐ ne? ; 你呢？
-sorry ; duì bù qǐ ; 对不起
-it's all right ; méi guānxi ; 没关系
-thank you ; xièxie ; 谢谢
-you are welcome ; bú kèqi ; 不客气
-happy weekend ; zhōumò kuàile ; 周末快乐
-you too ; nǐyěshì ; 你也是
-see you later ; huíjiàn ; 回见
-don't, do not ; bùyào ; 不要
-how much money? ; duōshǎo qián? ; 多少钱？
+hello | ni hao | 你好
+goodbye | zàijiàn | 再见
+how are you? | nǐ hǎo ma? | 你好吗？
+what about you? | nǐ ne? | 你呢？
+sorry | duì bù qǐ | 对不起
+it's all right | méi guānxi | 没关系
+thank you | xièxie | 谢谢
+you are welcome | bú kèqi | 不客气
+happy weekend | zhōumò kuàile | 周末快乐
+you too | nǐyěshì | 你也是
+see you later | huíjiàn | 回见
+don't, do not | bùyào | 不要
+how much money? | duōshǎo qián? | 多少钱？

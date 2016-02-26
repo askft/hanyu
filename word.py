@@ -1,4 +1,6 @@
 
+from util import *
+
 class Word:
 	"""A Word is a collection of synonyms in different languages.
 	"""
@@ -7,8 +9,8 @@ class Word:
 		self.categories = []
 		self.delimiter = delimiter
 
-		langs     = [s.strip() for s in str.split(delimiter)]
-		self.list = [[s.strip() for s in lang.split(',')] for lang in langs]
+		langs     = split(str, delimiter)
+		self.list = [split(lang, ',') for lang in langs]
 
 #		print("Added definition:", self.list)
 
@@ -16,10 +18,12 @@ class Word:
 		self.categories.append(category)
 
 	def __str__(self):
-#		inner = ['[' + ', '.join([s for s in lang]) + ']' for lang in self.list]
+#		inner = ['[' + ', '.join(['\'' + s + '\'' for s in lang]) + ']' \
+#			for lang in self.list]
 #		outer = ', '.join(inner)
 #		return '[' + outer + ']'
 		inner = [', '.join([s for s in lang]) for lang in self.list]
 		outer = ' | '.join(inner)
-		return '<Word: { ' + outer + ' }>'
+		cats = ', '.join(self.categories)
+		return '< Word: { ' + outer + ' } ( ' + cats + ' ) >'
 	
