@@ -85,7 +85,7 @@ def main(input, output):
 
 if __name__ == '__main__':
 	if len(sys.argv) != 3:
-		print("usage: python pinyin.py <input file> <output file>")
+		print("usage: python %s <input file> <output file>" % sys.argv[0])
 		exit(1)
 	main(sys.argv[1], sys.argv[2])
 
