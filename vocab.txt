@@ -1,21 +1,21 @@
 
-	         ._________________________.
-	..__.--¨¨|                         |¨¨--.__..
-	|        | A list of Chinese words |        |
-	|        |   by Alexander Skafte   |        |
-	'.__.--¨¨|_________________________|¨¨--.__.'
+#	         ._________________________.
+#	..__.--¨¨|                         |¨¨--.__..
+#	|        | A list of Chinese words |        |
+#	|        |   by Alexander Skafte   |        |
+#	'.__.--¨¨|_________________________|¨¨--.__.'
 
 
-Author:   Alexander Skafte
-Encoding: UTF-8
-Tab size: 8 spaces.
+# Author:   Alexander Skafte
+# Encoding: UTF-8
+# Tab size: 8 spaces.
 
 
-[p] = plural
-[m] = male
-[f] = female
+# [p] = plural
+# [m] = male
+# [f] = female
 
-	Pronouns
+#	Pronouns
 
 I, me			- wo3			- 我
 you			- ni3			- 你
@@ -28,17 +28,17 @@ they, them [m]		- ta1men		- 他们
 they, them [f]		- ta1men		- 她们
 
 
-	Persons
+#	Persons
 
-friend			- pengyou		- 朋友
+friend			- péngyou		- 朋友
 male			- nán			- 男
-female			- nü			- 女
+female			- nü3			- 女
 
 
-	Family
+#	Family
 
-father			- baba			- 爸爸
-mother			- mama			- 妈妈
+father			- ba4ba			- 爸爸
+mother			- ma1ma			- 妈妈
 siblings		- xiongdijiumei		- 兄弟姐妹
 older brother		- gege			- 哥哥
 older sister		- jiejie		- 姐姐
@@ -50,11 +50,11 @@ mother's father		- yeye			- 爷爷
 mother's mother		- laoye, waigong	- 姥爷, 外公
 
 
-	Professions
+#	Professions
 
 
 
-	Numbers and counting
+#	Numbers and counting
 
 0			- ling			- 零
 1			- yi			- 一
@@ -68,20 +68,21 @@ mother's mother		- laoye, waigong	- 姥爷, 外公
 9			- jiu			- 九
 10			- shi			- 十
 
-1x			-    shi,    shiyi,    shier,    shisan, ...
-2x			-  ershi,  ershiyi,  ershier,  ershisan, ...
-3x			- sanshi, sanshiyi, sanshier, sanshisan, ...
-?x			-   ?shi,   ?shiyo,   ?shier,   ?shisan, ...
+# 1x			-    shi,    shiyi,    shier,    shisan, ...
+# 2x			-  ershi,  ershiyi,  ershier,  ershisan, ...
+# 3x			- sanshi, sanshiyi, sanshier, sanshisan, ...
+# ?x			-   ?shi,   ?shiyo,   ?shier,   ?shisan, ...
 
-[x]00			- [x]bai	: {   100: yibai,    200: erbai,  ... }
-[x]000			- [x]qian	: {  1000: yiqian,  2000: erqian, ... }
-[x]0000			- [x]wan	: { 10000: yiwan,  20000: erwan,  ... }
+# [x]00			- [x]bai	: {   100: yibai,    200: erbai,  ... }
+# [x]000		- [x]qian	: {  1000: yiqian,  2000: erqian, ... }
+# [x]0000		- [x]wan	: { 10000: yiwan,  20000: erwan,  ... }
 
-// yi -> yao (when in a series of number)
-// TODO: sometimes ling is added in number (like 1001). Look up when.
+# yi -> yao (when in a series of numbers)
+# TODO: sometimes ling is added in number (like 1001). Look up when.
 
 
-	Time
+#	Time
+
 this (day/year)		- jin			- 今
 this (week)		- ben			- 本
 recently		- zuìjìn		- 最近
@@ -106,7 +107,7 @@ Saturday		- xingqiliu		- 星期六
 Sunday			- xingqitian		- 星期天
 
 
-	Food and beverage
+#	Food and beverage
 
 water			- shui			- 水
 coffee			- kafei			- 咖啡
@@ -117,30 +118,29 @@ food (rice, etc)	- fan			- 饭
 Chinese cuisine		- Zhongguo cai		- 终归菜
 
 
-	Question words
+#	Question words
 
-// http://www.dummies.com/how-to/content/how-to-ask-questions-in-chinese.html
+# http://www.dummies.com/how-to/content/how-to-ask-questions-in-chinese.html
 
 how			- ze3nmeyàng		- 怎么样
 what			- shénme		- 什么
 who			- shuí, shéi		- 谁
 which			- na3			- 哪
-where			- na3r			- 哪儿	// na er -> nar
-why			- wèishénme		- 为什么	// for what
+where			- na3r			- 哪儿
+why			- wèishénme		- 为什么
 
 how many, what, several	- ji3			- 几
 
 
-	"Answers to question words"
+#	Answers to question words
 
 that			- nà			- 那
-there			- nàr			- 那儿	// na er
-here			- zhèr			- 这儿	// zhe er
+there			- nàr			- 那儿
+here			- zhèr			- 这儿
 this			- zhè			- 这
 
-------------------------------------------------------------
 
-	Places
+#	Places
 
 café			- kafeidian		- 咖啡厅
 library			- tushuguan		- 体术官
@@ -149,7 +149,7 @@ school			- xuéxiào		- 学校
 supermarket		- chaosi		- 超市
 
 
-	Nationality
+#	Nationality
 
 China			- Zhongguo		- 中国
 Chinese person		- Zhongguoren		- 中国人
@@ -160,7 +160,7 @@ Swedish person		- Ruidianren		- 瑞典人
 Swedish language	- Ruidianyu		- 瑞典语
 
 
-	Uncategorized
+#	Uncategorized
 
 and			- hé			- 和
 also, too, as well	- ye3			- 也
@@ -171,15 +171,15 @@ no, not			- bù			- 不
 very, too, excessively	- tài			- 太
 
 
-	Classifiers
+#	Classifiers
 
-https://en.wikipedia.org/wiki/List_of_Chinese_classifiers
+# https://en.wikipedia.org/wiki/List_of_Chinese_classifiers
 
-(general)	- gè
-family members	- ko3u
+(general)		- gè			- 个
+family members		- ko3u			- 口
 
 
-	Adjectives
+#	Adjectives
 
 big			- dà			- 大
 busy			- máng			- 忙
@@ -190,13 +190,13 @@ hot			- rè			- 热
 white			- bái			- 白
 
 
-	Adverbs
+#	Adverbs
 
 very			- he3n			- 很
 extremely		- fe1icháng		- 非常
 
 
-	Verbs
+#	Verbs
 
 be			- shì			- 是
 drink			- he1			- 喝
@@ -213,16 +213,16 @@ work			- go1ngzuò		- 工作
 want			- yào			- 要
 
 
-	Other
+#	Other
 
 body, health		- she1nti3		- 身体
 horse			- ma3			- 马
 mouth			- ko3u			- 口
 sun			- rì			- 日
-please			- qi3ng			- 请	// please [verb]
+please			- qi3ng			- 请
 
 
-	Common phrases
+#	Common phrases
 
 hello			- ni hao		- 你好
 goodbye			- zàijiàn		- 再见
