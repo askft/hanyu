@@ -9,6 +9,13 @@ Please do note that the content is under development and not complete in any
 way, shape or form. I willl update this README file with more information
 as time passes by.
 
+
+## What is it?
+
+By running the main script, you will be introduced to a program that will let
+you practice your vocabulary by translating words.
+
+
 ## Installation / Usage
 
 **Requirements:**
@@ -29,20 +36,42 @@ cd hanyu
 
 ## Files
 
-**`words-num.txt`** - contains a list of words (English - Pinyin - 汉语).
+The descriptions below are incomplete; please refer to the files for more
+information.
+
+**`words-num.txt`** - Contains a list of words (English - Pinyin - 汉语).
 The pinyin uses numbers instead of accents.
 
-**`run.sh`** - small bash script that runs `convert.py` and `collect.py` with
-some arguments. Output files will be
- * `words-acc.txt` - same as `words-num.txt` but with accents instead of numbers
-   for the pinyin.
- * `words-nice.txt` - an easily parsed text file with all the words.
+**`words-acc.txt`** - Contains a list of words (English - Pinyin - 汉语).
+The pinyin uses accents instead of numbers. This file is generated.
 
-**`convert.py`** - parses "tone numbered pinyin" (such as the one in
+**`words-nice.txt`** - Contains a list of words (English - Pinyin - 汉语).
+The pinyin uses accents instead of numbers. This file only exists so that it
+can be easily parsed by other files. This file is generated.
+
+**`run.sh`** - small bash script that runs `1_convert.py`, `2_collect.py` and
+`3_practice.py` with some arguments. This script runs the practice program.
+This file generates two files:
+ * `words-acc.txt` - Same as `words-num.txt` but with accents instead of numbers
+   for the pinyin.
+ * `words-nice.txt` - An easily parsed text file with all the words.
+
+**`1_convert.py`** - Parses "tone numbered pinyin" (such as the one in
 `words-num.txt`) to "real" pinyin with correct typographical accents.
 This is so I can quickly add new words without looking for the correct letter.
+Writes to a new file.
 
-**`collect.py`** - Parse a file with words where every line is in on the format
-`English - Pinyin - 汉语`. Empty lines and lines starting with a `#` character
-are ignored. Write to a new file.
+**`2_collect.py`** - Parses a file with words where every line is in on the
+format `English - Pinyin - 汉语`. Empty lines and comment lines are ignored.
+Will sort words into categories. Writes to a new file.
+
+**`3_practice.py`** - Reads the words in `words-nice.txt` into a `Dictionary`
+data structure defines in `dictionary.py`.
+
+**`dictionary.py`** - A data structure that holds `Word` objects and can handle
+categories.
+
+**`word.py`** - A data structure that contains all translations of a word, and
+which category the word belongs to. Internally, a word is stored for instance as
+a list [['I', 'me'], ['wǒ'], ['我']].
 
