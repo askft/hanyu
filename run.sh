@@ -3,7 +3,7 @@
 
 set -e
 
-python  1_convert.py   words-num.txt   words-acc.txt
-python  2_collect.py   words-acc.txt   words-nice.txt
-python  3_practice.py  words-nice.txt
+python3  1_convert.py   words-num.txt   words-acc.txt
+python3  2_collect.py   words-acc.txt   words-nice.txt
+python3  3_practice.py  words-nice.txt
 
