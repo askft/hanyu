@@ -29,19 +29,19 @@ def main(input):
 
 # ----- Tests ------------------------------------------------------------------
 
-	print("Printing all Word object in the Dictionary:")
+	print("[TEST] Printing all Word object in the Dictionary:")
 	for word in d.get_words():
-		print(word)
+		print("  %s" % word)
 	print()
 	
-	print("Printing all pronouns:")
+	print("[TEST] Printing all pronouns:")
 	for word in d.get_words_for_category("Pronouns"):
-		print(word)
+		print("  %s" % word)
 	print()
 
-	print("Printing all categories in the dictionary:")
+	print("[TEST] Printing all categories in the dictionary:")
 	for category in d.get_categories():
-		print("- %s" % category)
+		print("  - %s" % category)
 
 
 if __name__ == '__main__':
