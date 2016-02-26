@@ -9,8 +9,6 @@ COMMENT_IDENTIFIER	= '#'
 WORD_DELIMITER		= '-'
 
 
-
-
 def table(list, header):
 	"""Return a new PrettyTable created from `list` and `header`.
 	"""

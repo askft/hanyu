@@ -19,19 +19,19 @@
 
 I, me			- wo3			- 我
 you			- ni3			- 你
-You			- nín			- 您
+You			- ni2n			- 您
 he, him			- ta1			- 他
 she, her		- ta1			- 她
-we, us			- wo3men		- 我们
-you [p]			- ni3men		- 你们
-they, them [m]		- ta1men		- 他们
-they, them [f]		- ta1men		- 她们
+we, us			- wo3men			- 我们
+you [p]			- ni3men			- 你们
+they, them [m]		- ta1men			- 他们
+they, them [f]		- ta1men			- 她们
 
 
 #	Persons
 
-friend			- péngyou		- 朋友
-male			- nán			- 男
+friend			- pe2ngyou		- 朋友
+male			- na2n			- 男
 female			- nü3			- 女
 
 
@@ -39,15 +39,15 @@ female			- nü3			- 女
 
 father			- ba4ba			- 爸爸
 mother			- ma1ma			- 妈妈
-siblings		- xiongdijiumei		- 兄弟姐妹
-older brother		- gege			- 哥哥
-older sister		- jiejie		- 姐姐
-younger brother		- didi			- 弟弟
-younger sister		- meimei		- 妹妹
-mother's mother		- nainai		- 奶奶
-father's mother		- laolao, waipo		- 姥姥, 外婆
-mother's father		- yeye			- 爷爷
-mother's mother		- laoye, waigong	- 姥爷, 外公
+siblings		- xio1ngdijie3me4i		- 兄弟姐妹
+older brother		- ge1ge			- 哥哥
+older sister		- jie3jie		- 姐姐
+younger brother		- di4di			- 弟弟
+younger sister		- me4imei		- 妹妹
+mother's mother		- na3inai		- 奶奶
+father's mother		- la3olao, wa4ipo2		- 姥姥, 外婆
+mother's father		- ye2ye			- 爷爷
+mother's mother		- la3oye, wa4igo1ng	- 姥爷, 外公
 
 
 #	Professions
@@ -56,17 +56,21 @@ mother's mother		- laoye, waigong	- 姥爷, 外公
 
 #	Numbers and counting
 
-0			- ling			- 零
-1			- yi			- 一
-2			- er			- 二
-3			- san			- 三
-4			- si			- 四
-5			- wu			- 五
-6			- liu			- 六
-7			- qi			- 七
-8			- ba			- 八
-9			- jiu			- 九
-10			- shi			- 十
+0			- li2ng			- 零
+1			- yi1			- 一
+2			- e4r			- 二
+3			- sa1n			- 三
+4			- si4			- 四
+5			- wu3			- 五
+6			- liu4			- 六
+7			- qi1			- 七
+8			- ba1			- 八
+9			- jiu3			- 九
+10			- shi2			- 十
+100			- ba3i			- 百
+1000			- qia1n			- 千
+10000			- wa4n			- 万
+
 
 # 1x			-    shi,    shiyi,    shier,    shisan, ...
 # 2x			-  ershi,  ershiyi,  ershier,  ershisan, ...
@@ -83,134 +87,134 @@ mother's mother		- laoye, waigong	- 姥爷, 外公
 
 #	Time
 
-this (day/year)		- jin			- 今
-this (week)		- ben			- 本
-recently		- zuìjìn		- 最近
+this (day/year)		- ji1n			- 今
+this (week)		- be3n			- 本
+recently		- zui4ji4n		- 最近
 
-day			- tian			- 天
-yesterday		- zuotian		- 昨天
-today			- jintian		- 今天
-tomorrow		- mingtian		- 明天
+day			- tia1n			- 天
+yesterday		- zuo2tia1n		- 昨天
+today			- ji1ntia1n		- 今天
+tomorrow		- mi2ngtia1n		- 明天
 
-year			- nian			- 年
-last year		- qunian		- 去年
-this year		- jinnian		- 今年
-next year		- mingnian		- 明年
+year			- nia2n			- 年
+last year		- qu4nia2n		- 去年
+this year		- ji1nnia2n		- 今年
+next year		- mi2ngnia2n		- 明年
 
-week			- xingqi		- 星期
-Monday			- xingqiyi		- 星期一
-Tuesday			- xingqier		- 星期二
-Wednesday		- xingqisan		- 星期三
-Thursday		- xingqisi		- 星期四
-Friday			- xingqiwu		- 星期五
-Saturday		- xingqiliu		- 星期六
-Sunday			- xingqitian		- 星期天
+week			- xi1ngqi1		- 星期
+Monday			- xi1ngqi1yi1		- 星期一
+Tuesday			- xi1ngqi1e4r		- 星期二
+Wednesday		- xi1ngqi1sa1n		- 星期三
+Thursday		- xi1ngqi1si4		- 星期四
+Friday			- xi1ngqi1wu3		- 星期五
+Saturday		- xi1ngqi1liu4		- 星期六
+Sunday			- xi1ngqi1tia1n		- 星期天
 
 
 #	Food and beverage
 
-water			- shui			- 水
-coffee			- kafei			- 咖啡
-tea			- cha			- 茶
-milk			- niu nai		- 牛奶
-juice			- guo zhi		- 果汁
-food (rice, etc)	- fan			- 饭
-Chinese cuisine		- Zhongguo cai		- 终归菜
+water			- shui3			- 水
+coffee			- ka1fe1i			- 咖啡
+tea			- cha2			- 茶
+milk			- niu2na3i		- 牛奶
+juice			- guo3zh1		- 果汁
+food (rice, etc)	- fa4n			- 饭
+Chinese cuisine		- Zho1ngguo2 ca4i		- 终归菜
 
 
 #	Question words
 
 # http://www.dummies.com/how-to/content/how-to-ask-questions-in-chinese.html
 
-how			- ze3nmeyàng		- 怎么样
-what			- shénme		- 什么
-who			- shuí, shéi		- 谁
+how			- ze3nmeya4ng		- 怎么样
+what			- she2nme		- 什么
+who			- shui2, she2i		- 谁
 which			- na3			- 哪
 where			- na3r			- 哪儿
-why			- wèishénme		- 为什么
+why			- we4ishe2nme		- 为什么
 
 how many, what, several	- ji3			- 几
 
 
 #	Answers to question words
 
-that			- nà			- 那
-there			- nàr			- 那儿
-here			- zhèr			- 这儿
-this			- zhè			- 这
+that			- na4			- 那
+there			- na4r			- 那儿
+here			- zhe4r			- 这儿
+this			- zhe4			- 这
 
 
 #	Places
 
-café			- kafeidian		- 咖啡厅
-library			- tushuguan		- 体术官
-restaurant		- fàndiàn		- 饭店
-school			- xuéxiào		- 学校
-supermarket		- chaosi		- 超市
+café			- ka1fe1idia4n		- 咖啡厅
+library			- tu2shu1gua3n		- 体术官
+restaurant		- fa4ndia4n		- 饭店
+school			- xue2xia4o		- 学校
+supermarket		- cha1oshi4		- 超市
 
 
 #	Nationality
 
-China			- Zhongguo		- 中国
-Chinese person		- Zhongguoren		- 中国人
-Chinese language	- Hanyu			- 汉语
+China			- Zho1ngguo2		- 中国
+Chinese person		- Zho1nggu24re2n		- 中国人
+Chinese language	- Ha4nyu3			- 汉语
 
-Sweden			- Ruidian		- 瑞典
-Swedish person		- Ruidianren		- 瑞典人
-Swedish language	- Ruidianyu		- 瑞典语
+Sweden			- Rui4dia3n		- 瑞典
+Swedish person		- Rui4dia3nre2n		- 瑞典人
+Swedish language	- Rui4dia3nyu3		- 瑞典语
 
 
 #	Uncategorized
 
-and			- hé			- 和
+and			- he2			- 和
 also, too, as well	- ye3			- 也
 
-correct, exactly	- duì			- 对
-yes			- shì			- 是
-no, not			- bù			- 不
-very, too, excessively	- tài			- 太
+correct, exactly	- dui4			- 对
+yes			- shi4			- 是
+no, not			- bu4			- 不
+very, too, excessively	- ta4i			- 太
 
 
 #	Classifiers
 
 # https://en.wikipedia.org/wiki/List_of_Chinese_classifiers
 
-(general)		- gè			- 个
+(general)		- ge4			- 个
 family members		- ko3u			- 口
 
 
 #	Adjectives
 
-big			- dà			- 大
-busy			- máng			- 忙
+big			- da4			- 大
+busy			- ma2ng			- 忙
 cold			- le3ng			- 冷
-difficult, hard		- nán			- 难
+difficult, hard		- na2n			- 难
 easy, simple		- jia3nda1n		- 简单
-hot			- rè			- 热
-white			- bái			- 白
+hot			- re4			- 热
+white			- ba2i			- 白
 
 
 #	Adverbs
 
 very			- he3n			- 很
-extremely		- fe1icháng		- 非常
+extremely		- fe1icha2ng		- 非常
 
 
 #	Verbs
 
-be			- shì			- 是
+be			- shi4			- 是
 drink			- he1			- 喝
 eat			- chi1			- 吃
-enter, come in		- jìn			- 进
-go			- qù			- 去
+enter, come in		- ji4n			- 进
+go			- qu4			- 去
 have, exist		- yo3u			- 有
 like			- xi3hua1n		- 喜欢
-return			- huí			- 回
-see, meet		- jiàn			- 见
-sit			- zuò			- 坐
-study			- xué			- 学
-work			- go1ngzuò		- 工作
-want			- yào			- 要
+return			- hui2			- 回
+see, meet		- jia4n			- 见
+sit			- zuo4			- 坐
+study			- xue2			- 学
+work			- go1ngzuo4		- 工作
+want			- ya4o			- 要
 
 
 #	Other
@@ -218,23 +222,23 @@ want			- yào			- 要
 body, health		- she1nti3		- 身体
 horse			- ma3			- 马
 mouth			- ko3u			- 口
-sun			- rì			- 日
+sun			- ri4			- 日
 please			- qi3ng			- 请
 
 
 #	Common phrases
 
 hello			- ni hao		- 你好
-goodbye			- zàijiàn		- 再见
+goodbye			- za4ijia4n		- 再见
 
-how are you?		- ni hao ma?		- 你好吗？
+how are you?		- ni3 ha3o ma?		- 你好吗？
 what about you?		- ni3 ne?		- 你呢?
 
-sorry			- duì bù qi3		- 对不起
-it's all right		- méi gua1nxi		- 没关系
+sorry			- dui4 bu4 qi3		- 对不起
+it's all right		- me2i gua1nxi		- 没关系
 
-thank you		- xièxie		- 谢谢
-you are welcome		- bú kèqi		- 不客气
+thank you		- xie4xie		- 谢谢
+you are welcome		- bu2 ke4qi		- 不客气
 
-see you later		- huíjiàn		- 回见
+see you later		- hui2jia4n		- 回见
 
