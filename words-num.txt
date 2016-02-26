@@ -50,8 +50,13 @@ mother's father		- ye2ye			- 爷爷
 mother's mother		- la3oye, wa4igo1ng	- 姥爷, 外公
 
 
-#	Professions
+#	Occupations
 
+student			- xue2she1ng		- 学生
+teacher			- la3oshi1		- 老师
+doctor			- yi1she1ng		- 医生
+businessman		- sha1ngre2n		- 商人
+engineer		- go1ngche2ngshi1		- 工程师
 
 
 #	Numbers and counting
@@ -91,6 +96,9 @@ this (day/year)		- ji1n			- 今
 this (week)		- be3n			- 本
 recently		- zui4ji4n		- 最近
 
+early, morning		- za3o			- 早
+noon, midday		- wu3			- 午
+late, evening, night	- wa3n			- 晚
 day			- tia1n			- 天
 yesterday		- zuo2tia1n		- 昨天
 today			- ji1ntia1n		- 今天
@@ -101,7 +109,8 @@ last year		- qu4nia2n		- 去年
 this year		- ji1nnia2n		- 今年
 next year		- mi2ngnia2n		- 明年
 
-week			- xi1ngqi1		- 星期
+
+week			- xi1ngqi1, zho1u		- 星期, 周
 Monday			- xi1ngqi1yi1		- 星期一
 Tuesday			- xi1ngqi1e4r		- 星期二
 Wednesday		- xi1ngqi1sa1n		- 星期三
@@ -111,15 +120,30 @@ Saturday		- xi1ngqi1liu4		- 星期六
 Sunday			- xi1ngqi1tia1n		- 星期天
 
 
+#	Clock
+
+hour			- dia3n			- 点
+minute			- fe1n			- 分
+second			- mia3o			- 秒
+quarter			- ke4			- 刻
+half			- ba4n			- 半
+short of		- cha4			- 差
+two o'clock		- lia3ngdia3n		- 亮点
+
+
 #	Food and beverage
 
-water			- shui3			- 水
-coffee			- ka1fe1i			- 咖啡
-tea			- cha2			- 茶
-milk			- niu2na3i		- 牛奶
-juice			- guo3zh1		- 果汁
-food (rice, etc)	- fa4n			- 饭
+alcohol, liquor		- jiu3			- 酒
+beer			- pi2ji3u			- 啤酒
 Chinese cuisine		- Zho1ngguo2 ca4i		- 终归菜
+coffee			- ka1fe1i			- 咖啡
+french fries		- shu3tia2o		- 薯条
+food (rice, etc)	- fa4n			- 饭
+juice			- guo3zh1		- 果汁
+milk			- niu2na3i		- 牛奶
+tea			- cha2			- 茶
+water			- shui3			- 水
+
 
 
 #	Question words
@@ -134,30 +158,33 @@ where			- na3r			- 哪儿
 why			- we4ishe2nme		- 为什么
 
 how many, what, several	- ji3			- 几
-
-
-#	Answers to question words
-
-that			- na4			- 那
-there			- na4r			- 那儿
-here			- zhe4r			- 这儿
-this			- zhe4			- 这
+how many, how much	- duo1sha3o		- 多少
 
 
 #	Places
 
+bookstore		- shu1dia4n		- 书店
 café			- ka1fe1idia4n		- 咖啡厅
 library			- tu2shu1gua3n		- 体术官
+park			- go1ngyua2n		- 公园
 restaurant		- fa4ndia4n		- 饭店
 school			- xue2xia4o		- 学校
 supermarket		- cha1oshi4		- 超市
 
 
+
 #	Nationality
+
+country, nation		- guo2			- 国
+foreign language	- wa4iyu3			- 外语
 
 China			- Zho1ngguo2		- 中国
 Chinese person		- Zho1nggu24re2n		- 中国人
 Chinese language	- Ha4nyu3			- 汉语
+
+Japan			- ri4be3n			- 日本
+Japanese person		- ri4be3nre2n		- 日本人
+Japanese language	- ri4yu3			- 日语
 
 Sweden			- Rui4dia3n		- 瑞典
 Swedish person		- Rui4dia3nre2n		- 瑞典人
@@ -171,8 +198,18 @@ also, too, as well	- ye3			- 也
 
 correct, exactly	- dui4			- 对
 yes			- shi4			- 是
+no (past)		- me2i			- 没
 no, not			- bu4			- 不
 very, too, excessively	- ta4i			- 太
+
+that			- na4			- 那
+there			- na4r			- 那儿
+here			- zhe4r			- 这儿
+this			- zhe4			- 这
+
+some, few, several	- xie1			- 些
+
+years old		- sui4			- 岁
 
 
 #	Classifiers
@@ -181,6 +218,18 @@ very, too, excessively	- ta4i			- 太
 
 (general)		- ge4			- 个
 family members		- ko3u			- 口
+
+
+#	Prepositions
+
+; There's more English definitions than the below; please see
+; https://translate.google.com/#zh-CN/en/CHARACTER
+
+at, in, by		- za4i			- 在
+on, upon		- sha4ng		- 上
+below, under		- xia4			- 下
+in, inside, inner	- li3			- 里
+out, outside, outer	- wa4i			- 外
 
 
 #	Adjectives
@@ -203,42 +252,55 @@ extremely		- fe1icha2ng		- 非常
 #	Verbs
 
 be			- shi4			- 是
+buy			- ma3i			- 买
 drink			- he1			- 喝
 eat			- chi1			- 吃
 enter, come in		- ji4n			- 进
 go			- qu4			- 去
 have, exist		- yo3u			- 有
 like			- xi3hua1n		- 喜欢
+live			- zhu4			- 住
+put			- fa4ng			- 放
+read			- ka4n			- 看
 return			- hui2			- 回
 see, meet		- jia4n			- 见
 sit			- zuo4			- 坐
 study			- xue2			- 学
+throw			- re1ng			- 扔
 work			- go1ngzuo4		- 工作
 want			- ya4o			- 要
+pluck			- ta2n, da4n		- 弹
 
 
 #	Other
 
 body, health		- she1nti3		- 身体
+book			- shu1			- 书
+child, kid		- ha2izi			- 孩子
+computer		- dia4nna3o		- 电脑
+computer science	- ji4sua4nji1 ke1xue2	- 计算机科学
 horse			- ma3			- 马
 mouth			- ko3u			- 口
+guitar			- ji2ta1			- 吉他
 sun			- ri4			- 日
 please			- qi3ng			- 请
+breakfast		- za3ofa4n		- 早饭
+lunch			- wu3fa4n			- 午饭
+dinner			- wa4nfa4n		- 晚饭
 
 
 #	Common phrases
 
 hello			- ni hao		- 你好
 goodbye			- za4ijia4n		- 再见
-
 how are you?		- ni3 ha3o ma?		- 你好吗？
-what about you?		- ni3 ne?		- 你呢?
-
+what about you?		- ni3 ne?		- 你呢？
 sorry			- dui4 bu4 qi3		- 对不起
 it's all right		- me2i gua1nxi		- 没关系
-
 thank you		- xie4xie		- 谢谢
 you are welcome		- bu2 ke4qi		- 不客气
-
+happy weekend		- zho1umo4 kua4ile		- 周末快乐
+you too			- ni3ye3shi4		- 你也是
 see you later		- hui2jia4n		- 回见
-
+don't, do not		- bu4ya4o			- 不要
+how much money?		- duo1sha3o qia2n?		- 多少钱？
