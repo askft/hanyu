@@ -12,6 +12,10 @@ def create_dictionary_from_file(file):
 	d                   = Dictionary()
 
 	for line in file:
+
+		if line.isspace():
+			continue
+
 		if line[0] == IDENTIFIER_CATEGORY:
 			category = line[1:].strip()
 			d.add_category(category)
@@ -29,19 +33,19 @@ def main(input):
 
 # ----- Tests ------------------------------------------------------------------
 
-	print("[TEST] Printing all Word object in the Dictionary:")
-	for word in d.get_words():
-		print("  %s" % word)
-	print()
-	
-	print("[TEST] Printing all pronouns:")
-	for word in d.get_words_for_category("Pronouns"):
-		print("  %s" % word)
-	print()
-
-	print("[TEST] Printing all categories in the dictionary:")
-	for category in d.get_categories():
-		print("  - %s" % category)
+#	print("[TEST] Printing all Word object in the Dictionary:")
+#	for word in d.get_words():
+#		print("  %s" % word)
+#	print()
+#	
+#	print("[TEST] Printing all pronouns:")
+#	for word in d.get_words_for_category("Pronouns"):
+#		print("  %s" % word)
+#	print()
+#
+#	print("[TEST] Printing all categories in the dictionary:")
+#	for category in d.get_categories():
+#		print("  - %s" % category)
 
 
 if __name__ == '__main__':

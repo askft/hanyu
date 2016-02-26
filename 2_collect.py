@@ -7,15 +7,15 @@ from util import *
 
 def main(input, output):
 
-	with open(input,  'r') as fin, \
-		 open(output, 'w') as fout:
-
-		# Skip irrelevant lines
-		lines = [l for l in fin if not (l.isspace() or iscomment(l))]
+	with open(input,  'r') as fin:
 
 		outlines = []
 
-		for line in lines:
+		for line in fin:
+
+			# Skip irrelevant lines
+			if line.isspace() or iscomment(line):
+				continue
 
 			if iscategory(line):
 				category = ''.join(line.split(None, 1)[1]).rstrip()
@@ -34,7 +34,7 @@ def main(input, output):
 
 				outlines.append(outline)
 
-		# Write the triples to a file in a format that is easy to parse.
+	with open(output, 'w') as fout:
 		fout.write(os.linesep.join(outlines))
 
 
