@@ -75,3 +75,6 @@ categories.
 which category the word belongs to. Internally, a word is stored for instance as
 a list [['I', 'me'], ['wǒ'], ['我']].
 
+**`util.py`** - Contains useful constants and functions that are used throughout
+the rest of the programs.
+
