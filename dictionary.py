@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 class Dictionary:
 	"""A Dictionary is a list of Word objects.

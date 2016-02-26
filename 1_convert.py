@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 """
 Convert pinyin that uses numbers to denote tones (such as ni3 ha3o)
