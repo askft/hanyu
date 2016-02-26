@@ -1,19 +1,19 @@
 
-#	         ._________________________.
-#	..__.--¨¨|                         |¨¨--.__..
-#	|        | A list of Chinese words |        |
-#	|        |   by Alexander Skafte   |        |
-#	'.__.--¨¨|_________________________|¨¨--.__.'
-
-
-# Author:   Alexander Skafte
-# Encoding: UTF-8
-# Tab size: 8 spaces.
-
-
-# [p] = plural
-# [m] = male
-# [f] = female
+;	         ._________________________.
+;	..__.--¨¨|                         |¨¨--.__..
+;	|        | A list of Chinese words |        |
+;	|        |   by Alexander Skafte   |        |
+;	'.__.--¨¨|_________________________|¨¨--.__.'
+;
+;
+; Author:   Alexander Skafte
+; Encoding: UTF-8
+; Tab size: 8 spaces.
+;
+;
+; [p] = plural
+; [m] = male
+; [f] = female
 
 #	Pronouns
 
@@ -72,17 +72,17 @@ mother's mother		- la3oye, wa4igo1ng	- 姥爷, 外公
 10000			- wa4n			- 万
 
 
-# 1x			-    shi,    shiyi,    shier,    shisan, ...
-# 2x			-  ershi,  ershiyi,  ershier,  ershisan, ...
-# 3x			- sanshi, sanshiyi, sanshier, sanshisan, ...
-# ?x			-   ?shi,   ?shiyo,   ?shier,   ?shisan, ...
+; 1x			-    shi,    shiyi,    shier,    shisan, ...
+; 2x			-  ershi,  ershiyi,  ershier,  ershisan, ...
+; 3x			- sanshi, sanshiyi, sanshier, sanshisan, ...
+; ?x			-   ?shi,   ?shiyo,   ?shier,   ?shisan, ...
 
-# [x]00			- [x]bai	: {   100: yibai,    200: erbai,  ... }
-# [x]000		- [x]qian	: {  1000: yiqian,  2000: erqian, ... }
-# [x]0000		- [x]wan	: { 10000: yiwan,  20000: erwan,  ... }
+; [x]00			- [x]bai	: {   100: yibai,    200: erbai,  ... }
+; [x]000		- [x]qian	: {  1000: yiqian,  2000: erqian, ... }
+; [x]0000		- [x]wan	: { 10000: yiwan,  20000: erwan,  ... }
 
-# yi -> yao (when in a series of numbers)
-# TODO: sometimes ling is added in number (like 1001). Look up when.
+; yi -> yao (when in a series of numbers)
+; TODO: sometimes ling is added in number (like 1001). Look up when.
 
 
 #	Time
@@ -124,7 +124,7 @@ Chinese cuisine		- Zho1ngguo2 ca4i		- 终归菜
 
 #	Question words
 
-# http://www.dummies.com/how-to/content/how-to-ask-questions-in-chinese.html
+; http://www.dummies.com/how-to/content/how-to-ask-questions-in-chinese.html
 
 how			- ze3nmeya4ng		- 怎么样
 what			- she2nme		- 什么
@@ -177,7 +177,7 @@ very, too, excessively	- ta4i			- 太
 
 #	Classifiers
 
-# https://en.wikipedia.org/wiki/List_of_Chinese_classifiers
+; https://en.wikipedia.org/wiki/List_of_Chinese_classifiers
 
 (general)		- ge4			- 个
 family members		- ko3u			- 口

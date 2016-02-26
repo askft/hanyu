@@ -13,9 +13,6 @@ as time passes by.
 
 **Requirements:**
 * [Python 3](https://www.python.org/downloads/)
-* [PrettyTable](https://pypi.python.org/pypi/PrettyTable) (Optional, you can
-  just comment out the relevant lines in `collect.py` if you don't want to
-  print a table. I will proabably remove this "functionality" anyway soon.)
 
 **Mac OS X or GNU+Linux**
 

@@ -1,3 +1,4 @@
+# Pronouns
 I, me ; wǒ ; 我
 you ; nǐ ; 你
 You ; nín ; 您
@@ -7,9 +8,11 @@ we, us ; wǒmen ; 我们
 you [p] ; nǐmen ; 你们
 they, them [m] ; tāmen ; 他们
 they, them [f] ; tāmen ; 她们
+# Persons
 friend ; péngyou ; 朋友
 male ; nán ; 男
 female ; nǚ ; 女
+# Family
 father ; bàba ; 爸爸
 mother ; māma ; 妈妈
 siblings ; xiōngdijiěmèi ; 兄弟姐妹
@@ -21,6 +24,8 @@ mother's mother ; nǎinai ; 奶奶
 father's mother ; lǎolao, wàipó ; 姥姥, 外婆
 mother's father ; yéye ; 爷爷
 mother's mother ; lǎoye, wàigōng ; 姥爷, 外公
+# Professions
+# Numbers and counting
 0 ; líng ; 零
 1 ; yī ; 一
 2 ; èr ; 二
@@ -35,6 +40,7 @@ mother's mother ; lǎoye, wàigōng ; 姥爷, 外公
 100 ; bǎi ; 百
 1000 ; qiān ; 千
 10000 ; wàn ; 万
+# Time
 this (day/year) ; jīn ; 今
 this (week) ; běn ; 本
 recently ; zuìjìn ; 最近
@@ -54,6 +60,7 @@ Thursday ; xīngqīsì ; 星期四
 Friday ; xīngqīwǔ ; 星期五
 Saturday ; xīngqīliù ; 星期六
 Sunday ; xīngqītiān ; 星期天
+# Food and beverage
 water ; shuǐ ; 水
 coffee ; kāfēi ; 咖啡
 tea ; chá ; 茶
@@ -61,6 +68,7 @@ milk ; niúnǎi ; 牛奶
 juice ; guǒzh1 ; 果汁
 food (rice, etc) ; fàn ; 饭
 Chinese cuisine ; Zhōngguó cài ; 终归菜
+# Question words
 how ; zěnmeyàng ; 怎么样
 what ; shénme ; 什么
 who ; shuí, shéi ; 谁
@@ -68,29 +76,35 @@ which ; nǎ ; 哪
 where ; nǎr ; 哪儿
 why ; wèishénme ; 为什么
 how many, what, several ; jǐ ; 几
+# Answers to question words
 that ; nà ; 那
 there ; nàr ; 那儿
 here ; zhèr ; 这儿
 this ; zhè ; 这
+# Places
 café ; kāfēidiàn ; 咖啡厅
 library ; túshūguǎn ; 体术官
 restaurant ; fàndiàn ; 饭店
 school ; xuéxiào ; 学校
 supermarket ; chāoshì ; 超市
+# Nationality
 China ; Zhōngguó ; 中国
 Chinese person ; Zhōnggú4rén ; 中国人
 Chinese language ; Hànyǔ ; 汉语
 Sweden ; Ruìdiǎn ; 瑞典
 Swedish person ; Ruìdiǎnrén ; 瑞典人
 Swedish language ; Ruìdiǎnyǔ ; 瑞典语
+# Uncategorized
 and ; hé ; 和
 also, too, as well ; yě ; 也
 correct, exactly ; duì ; 对
 yes ; shì ; 是
 no, not ; bù ; 不
 very, too, excessively ; tài ; 太
+# Classifiers
 (general) ; gè ; 个
 family members ; kǒu ; 口
+# Adjectives
 big ; dà ; 大
 busy ; máng ; 忙
 cold ; lěng ; 冷
@@ -98,8 +112,10 @@ difficult, hard ; nán ; 难
 easy, simple ; jiǎndān ; 简单
 hot ; rè ; 热
 white ; bái ; 白
+# Adverbs
 very ; hěn ; 很
 extremely ; fēicháng ; 非常
+# Verbs
 be ; shì ; 是
 drink ; hē ; 喝
 eat ; chī ; 吃
@@ -113,11 +129,13 @@ sit ; zuò ; 坐
 study ; xué ; 学
 work ; gōngzuò ; 工作
 want ; yào ; 要
+# Other
 body, health ; shēntǐ ; 身体
 horse ; mǎ ; 马
 mouth ; kǒu ; 口
 sun ; rì ; 日
 please ; qǐng ; 请
+# Common phrases
 hello ; ni hao ; 你好
 goodbye ; zàijiàn ; 再见
 how are you? ; nǐ hǎo ma? ; 你好吗？

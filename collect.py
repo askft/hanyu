@@ -2,56 +2,50 @@
 import os
 import sys
 
-from prettytable import *
 
-
-COMMENT_IDENTIFIER	= '#'
+IDENTIFIER_COMMENT	= ';'
+IDENTIFIER_CATEGORY = '#'
 WORD_DELIMITER		= '-'
-
-
-def table(list, header):
-	"""Return a new PrettyTable created from `list` and `header`.
-	"""
-	t = PrettyTable(header)
-	for element in list:
-		t.add_row(element)
-	t.align = 'l'
-#	t.set_style(PLAIN_COLUMNS)
-	return t
 
 
 def main(input, output):
 
-	with open(input, 'r') as file:
+	with open(input,  'r') as fin, \
+		 open(output, 'w') as fout:
+
+		def iscategory(line):
+			"""Return true if line starts with IDENTIFIER_CATEGORY.
+			"""
+			return line.lstrip()[0] == IDENTIFIER_CATEGORY
 
 		def iscomment(line):
-			return line.lstrip()[0] == COMMENT_IDENTIFIER
-
-		def ok(line):
-			return not (line.isspace() or iscomment(line))
+			"""Return true if line starts with IDENTIFIER_COMMENT.
+			"""
+			return line.lstrip()[0] == IDENTIFIER_COMMENT
 
 		def split(s):
 			"""Split a string "x - y - z" into a list ['x','y','z'].
 			"""
 			return [w.strip() for w in s.split(WORD_DELIMITER)]
 
-		# A triple is something like ['big', 'dà', '大'].
-		# `triples` is a list of such.
-		triples = [split(line) for line in file if ok(line)]
+		# Skip irrelevant lines
+		lines = [l for l in fin if not (l.isspace() or iscomment(l))]
 
-	# Detect incomplete triples.
-	if not all([len(t) == 3 for t in triples]):
-		print("Length error.")
-		exit(1)
+		outlines = []
+		for line in lines:
+			if iscategory(line):
+				category = ''.join(line.split(None, 1)[1]).rstrip()
+				outlines.append(IDENTIFIER_CATEGORY + ' ' + category)
+			else:
+				try:
+					(x, y, z) = split(line)
+					outlines.append("%s ; %s ; %s" % (x, y, z))
+				except ValueError:
+					print("Invalid line in file %s: '%s'" % (input, line))
+					exit(1)
 
-	# Print a nice table. Unnecessary but fun.
-#	print(table(triples, ["English", "Pinyin", "汉语"]))
-
-	# Write the triples to a file in a format that is easy to parse.
-	with open(output, 'w') as file:
-		for [a, b, c] in triples:
-			file.write("%s ; %s ; %s" % (a, b, c))
-			file.write(os.linesep)
+		# Write the triples to a file in a format that is easy to parse.
+		fout.write(os.linesep.join(outlines))
 
 
 if __name__ == '__main__':

@@ -1,7 +1,7 @@
 
 	TODO
 
-* Add support for categories
+* [DONE] Add support for categories
 
 * If a word contains a dash character ('-') the split will fail. Use another
   delimiter, perhaps?
