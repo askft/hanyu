@@ -1,34 +1,12 @@
 
 	TODO
 
-* Collect all kinds of seperators, identifiers etc in file file. Be consistent!
+* Make option to save progress to a file to continue later
+
+* [DONE] Collect all kinds of seperators, identifiers etc in file file. Be consistent!
 
 * [DONE] Add support for categories
 
 * If a word contains a dash character ('-') the split will fail. Use another
   delimiter, perhaps?
-
-* (Optional) Make an option for parsing "fake pinyin" (ï, í, î, ì), such as
-  {
-  	'ä' : 'ā',
-  	'a3' : 'ǎ',
-  
-  	'ë' : 'ē',
-  	'ê' : 'ě',
-  
-  	'ï' : 'ī',
-  	'î' : 'ǐ',
-  
-  	'ö' : 'ō',
-  	'ô' : 'ǒ',
-  
-  	'ü' : 'ū',
-  	'û' : 'ǔ',
-  
-  	# What to do with these???
-  	'y1' : 'ǖ',
-  	'y2' : 'ǘ',
-  	'y3' : 'ǚ',
-  	'y4' : 'ǜ'
-  }
 

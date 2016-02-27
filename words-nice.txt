@@ -80,7 +80,7 @@ two o'clock | liǎngdiǎn | 亮点
 # Food and beverage
 alcohol, liquor | jiǔ | 酒
 beer | píjǐu | 啤酒
-Chinese cuisine | Zhōngguó cài | 终归菜
+Chinese cuisine | Zhōngguócài | 中国菜
 coffee | kāfēi | 咖啡
 french fries | shǔtiáo | 薯条
 food, rice | fàn | 饭
@@ -109,11 +109,11 @@ supermarket | chāoshì | 超市
 country, nation | guó | 国
 foreign language | wàiyǔ | 外语
 China | Zhōngguó | 中国
-Chinese person | Zhōnggúorén | 中国人
+Chinese person | Zhōngguórén | 中国人
 Chinese language | Hànyǔ | 汉语
-Japan | rìběn | 日本
-Japanese person | rìběnrén | 日本人
-Japanese language | rìyǔ | 日语
+Japan | Rìběn | 日本
+Japanese person | Rìběnrén | 日本人
+Japanese language | Rìyǔ | 日语
 Sweden | Ruìdiǎn | 瑞典
 Swedish person | Ruìdiǎnrén | 瑞典人
 Swedish language | Ruìdiǎnyǔ | 瑞典语
@@ -133,7 +133,7 @@ some, few, several | xiē | 些
 years old | suì | 岁
 # Classifiers
 (general) | gè | 个
-family members | kǒu | 口
+(family members) | kǒu | 口
 # Prepositions
 at, in, by | zài | 在
 on, upon | shàng | 上
@@ -176,7 +176,7 @@ body, health | shēntǐ | 身体
 book | shū | 书
 child, kid | háizi | 孩子
 computer | diànnǎo | 电脑
-computer science | jìsuànjī kēxué | 计算机科学
+computer science | jìsuànjīkēxué | 计算机科学
 horse | mǎ | 马
 mouth | kǒu | 口
 guitar | jítā | 吉他
@@ -186,14 +186,14 @@ breakfast | zǎofàn | 早饭
 lunch | wǔfàn | 午饭
 dinner | wànfàn | 晚饭
 # Common phrases
-hello | ni hao | 你好
+hello | nǐ hǎo | 你好
 goodbye | zàijiàn | 再见
 how are you? | nǐ hǎo ma? | 你好吗？
 what about you? | nǐ ne? | 你呢？
-sorry | duì bù qǐ | 对不起
-it's all right | méi guānxi | 没关系
+sorry | duìbùqǐ | 对不起
+it's all right | méiguānxi | 没关系
 thank you | xièxie | 谢谢
-you are welcome | bú kèqi | 不客气
+you are welcome | búkèqi | 不客气
 happy weekend | zhōumò kuàile | 周末快乐
 you too | nǐyěshì | 你也是
 see you later | huíjiàn | 回见

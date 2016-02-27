@@ -103,11 +103,17 @@ def choose_categories(available_categories):
 	return chosen_categories
 
 
+# TODO
+#  Fix for unanswered words and ?exit exiting if incorrect_words is empty
+
 def practice(lang_from, lang_to, words):
 
-	num_correct     = 0
-	num_incorrect   = 0
-	incorrect_words = []
+	num_correct      = 0
+	num_incorrect    = 0
+
+	correct    = []
+	incorrect  = []
+	unanswered = list(words)
 
 	for word in words:
 
@@ -115,23 +121,29 @@ def practice(lang_from, lang_to, words):
 		answer = split(input("Translate '%s': " % challenge), ',')
 
 		if ''.join(answer) == '?exit':
+			print()
 			break
 
 		for a in answer:
-			pinyin = convert_to_acc(a) 
-			if pinyin in word.list[lang_to]:
+
+			a = convert_to_acc(a) 
+
+			if a in word.list[lang_to]:
 				num_correct += 1
-				print("'" + pinyin + "'" + " is correct. " + \
-						GREEN + "Good!\n" + ENDC)
+				correct.append(word)
+				print(GREEN + "'" + a + "' is correct. Good!\n" + ENDC)
 				break
+
 			else:
 				num_incorrect += 1
 				s = ' | '.join([', '.join(x) for x in word.list])
-				incorrect_words.append(word)
+				incorrect.append(word)
 				print(RED + "Bad! Correct answer: ( %s ).\n" % (s) + ENDC)
 				break
 
-	return (num_correct, num_incorrect, incorrect_words)
+		unanswered.remove(word)
+
+	return (num_correct, num_incorrect, correct, incorrect, unanswered)
 
 
 def main(input_filename):
@@ -144,33 +156,63 @@ def main(input_filename):
 	chosen_categories    = choose_categories(d.get_categories())
 
 	words = list(d.get_words_for_categories(chosen_categories))
-	random.shuffle(words)
+
+	num_correct   = 0
+	num_incorrect = 0
 
 	try_again = True
 	while try_again:
 
-		(num_correct, num_incorrect, incorrect_words) = \
+		random.shuffle(words)
+
+		(new_num_correct, new_num_incorrect, correct, incorrect, unanswered) = \
 			practice(lang_from, lang_to, words)
+
+		num_correct   += new_num_correct
+		num_incorrect += new_num_incorrect
 
 		ratio = num_correct / (num_correct + num_incorrect)
 
-		print("You got " + YELLOW + ("%.2f %%" % (ratio * 100.0)) + ENDC + \
-				" of the words " + GREEN + "correct." + ENDC)
+		total = len(correct) + len(incorrect) + len(unanswered)
+		print(
+			"%sCorrect:%s    %d of %d\n"
+			"%sIncorrect:%s  %d of %d\n"
+			"%sUnanswered:%s %d of %d\n" % (
+				GREEN,  ENDC, len(correct),    total,
+				RED,    ENDC, len(incorrect),  total,
+				YELLOW, ENDC, len(unanswered), total))
 
-		if not incorrect_words:
+
+#		print("You got " + YELLOW + ("%.2f %%" % (ratio * 100.0)) + ENDC + \
+#				" of the words " + GREEN + "correct.\n" + ENDC)
+
+		if not incorrect and not unanswered:
 			print("Congratulations!\n")
 			break
 
-		print("The following words were " + RED + "incorrect:" + ENDC)
-
-		for word in incorrect_words:
+		print(GREEN + "The following words were correct:" + ENDC)
+		for word in correct:
 			s = ' | '.join([', '.join(x) for x in word.list])
 			print(" - %s" % s)
+		print()
+
+		print(RED + "The following words were incorrect:" + ENDC)
+		for word in incorrect:
+			s = ' | '.join([', '.join(x) for x in word.list])
+			print(" - %s" % s)
+		print()
+
+		print(YELLOW + "The following words were left unanswered:" + ENDC)
+		for word in unanswered:
+			s = ' | '.join([', '.join(x) for x in word.list])
+			print(" - %s" % s)
+		print()
 
 		while True:
-			choice = input("Try again with the incorrect words? [y/n] ")
+			choice = input(
+					"Try again with the incorrect and unanswered words? [y/n] ")
 			if choice == 'y':
-				words = incorrect_words
+				words = incorrect + unanswered
 				break
 			elif choice == 'n':
 				print("Thank you for using the program.")
