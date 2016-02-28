@@ -31,7 +31,8 @@ cd hanyu
 
 **Windows**
 
-(Instructions coming. Should be easy to run.)
+(Instructions coming. Should be easy to run. Characters may mess things up
+for you however.)
 
 
 ## Files
