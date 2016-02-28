@@ -1,6 +1,8 @@
 
 	TODO
 
+* Tell the user that they can write ?exit to "pause"
+
 * Make option to save progress to a file to continue later
 
 * [DONE] Collect all kinds of seperators, identifiers etc in file file. Be consistent!

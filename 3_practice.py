@@ -165,7 +165,7 @@ def practice(lang_from, lang_to, correct, incorrect, unanswered):
 def main(input_filename):
 
 	# Read categories and words from file and load into a dictionary
-	with open(input_filename, 'r') as file:
+	with open(input_filename, 'r', encoding='utf-8') as file:
 		d = create_dictionary_from_file(file)
 
 	print("\n   --- 学汉语 ---\n")
@@ -250,33 +250,4 @@ if __name__ == '__main__':
 		print("usage: python %s <input file>" % sys.argv[0])
 		exit(1)
 	main(sys.argv[1])
-
-
-#		for (words, color, name) in [
-#						(correct,    GREEN,  "correct")
-#						(incorrect,  RED,    "incorrect")
-#						(unanswered, YELLOW, "unanswered")]:
-#			print(color + "The following words were %s:" % name + ENDC)
-#			for word in words:
-#				s = ' | '.join([', '.join(x) for x in word.list])
-#				print(" - %s" % s)
-#			print()
-
-#		print(GREEN + "The following words were correct:" + ENDC)
-#		for word in correct:
-#			s = ' | '.join([', '.join(x) for x in word.list])
-#			print(" - %s" % s)
-#		print()
-#
-#		print(RED + "The following words were incorrect:" + ENDC)
-#		for word in incorrect:
-#			s = ' | '.join([', '.join(x) for x in word.list])
-#			print(" - %s" % s)
-#		print()
-#
-#		print(YELLOW + "The following words were left unanswered:" + ENDC)
-#		for word in unanswered:
-#			s = ' | '.join([', '.join(x) for x in word.list])
-#			print(" - %s" % s)
-#		print()
 

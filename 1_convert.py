@@ -14,12 +14,12 @@ from util import convert_to_acc
 
 def main(input, output):
 
-	with open(input, 'r') as file:
+	with open(input, 'r', encoding='utf-8') as file:
 		pinyin = ''.join([line for line in file])
 
 	pinyin = convert_to_acc(pinyin)
 
-	with open(output, 'w') as file:
+	with open(output, 'w', encoding='utf-8') as file:
 		file.write(pinyin)
 
 

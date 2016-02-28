@@ -9,7 +9,7 @@ from util import *
 
 def main(input, output):
 
-	with open(input,  'r') as fin:
+	with open(input,  'r', encoding='utf-8') as fin:
 
 		outlines = []
 
@@ -42,7 +42,7 @@ def main(input, output):
 
 				outlines.append(outline)
 
-	with open(output, 'w') as fout:
+	with open(output, 'w', encoding='utf-8') as fout:
 		fout.write(os.linesep.join(outlines))
 
 
