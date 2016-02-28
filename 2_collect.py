@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import io
 import os
 import sys
 
@@ -10,7 +9,7 @@ from util import *
 
 def main(input, output):
 
-	with io.open(input,  'r', encoding='utf-8') as fin:
+	with open(input,  'r', encoding='utf-8') as fin:
 
 		outlines = []
 
@@ -21,9 +20,8 @@ def main(input, output):
 				continue
 
 			if islanguage(line):
-				languages = ''.join(line.split(None, 1)[1]).rstrip()
-#				print("languages = %s" % languages)
-				outlines.append(IDENTIFIER_LANGUAGE + ' ' + languages)
+				languages = split(line.split(None, 1)[1], ',')
+				outlines.append(IDENTIFIER_LANGUAGE + ' ' + ', '.join(languages))
 
 			elif iscategory(line):
 				category = ''.join(line.split(None, 1)[1]).rstrip()
@@ -32,7 +30,7 @@ def main(input, output):
 
 			else:
 				tokens = split(line, DELIMITER_NUM)
-				if len(tokens) != NUM_LANGUAGES:
+				if len(tokens) != len(languages):
 					print("Invalid line in file %s: '%s'" % (input, line))
 					exit(1)
 
@@ -43,7 +41,7 @@ def main(input, output):
 
 				outlines.append(outline)
 
-	with io.open(output, 'w', encoding='utf-8') as fout:
+	with open(output, 'w', encoding='utf-8') as fout:
 		fout.write(os.linesep.join(outlines))
 
 

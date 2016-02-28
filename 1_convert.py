@@ -7,7 +7,6 @@ to pinyin that uses accents to denote tones (such as nǐ hǎo).
 """
 
 
-import io
 import sys
 
 from util import convert_to_acc
@@ -15,12 +14,12 @@ from util import convert_to_acc
 
 def main(input, output):
 
-	with io.open(input, 'r', encoding='utf-8') as file:
+	with open(input, 'r', encoding='utf-8') as file:
 		pinyin = ''.join([line for line in file])
 
 	pinyin = convert_to_acc(pinyin)
 
-	with io.open(output, 'w', encoding='utf-8') as file:
+	with open(output, 'w', encoding='utf-8') as file:
 		file.write(pinyin)
 
 

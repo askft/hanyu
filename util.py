@@ -8,8 +8,6 @@ IDENTIFIER_LANGUAGE = '!'
 DELIMITER_NUM       = '-'		# TODO Change this to something else (?)
 DELIMITER_NICE      = ' | '		# Note the spaces
 
-NUM_LANGUAGES       = 3
-
 
 PINK   = '\033[95m'
 PURPLE = '\033[94m'

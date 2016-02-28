@@ -1,14 +1,18 @@
 
 	TODO
 
-* Tell the user that they can write ?exit to "pause"
+
+* Add a timer
 
 * Make option to save progress to a file to continue later
 
-* [DONE] Collect all kinds of seperators, identifiers etc in file file. Be consistent!
-
-* [DONE] Add support for categories
-
 * If a word contains a dash character ('-') the split will fail. Use another
   delimiter, perhaps?
+
+* [DONE] Tell the user that they can write ?pause to "pause"
+
+* [DONE] Collect all kinds of seperators, identifiers etc in file file. Be
+  consistent!
+
+* [DONE] Add support for categories
 

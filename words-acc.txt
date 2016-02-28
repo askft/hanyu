@@ -15,6 +15,24 @@
 ; [m] = male
 ; [f] = female
 
+;! English, Spanish
+;
+;# Pronouns
+;
+;I, me	- yo
+;you	- tu
+;he, it	- el
+;she	- el
+;we	- nosotros
+;
+;# things
+;
+;room	- habitacion
+;car	- auto
+;ocean	- mar
+
+
+
 ! English, Pīnyīn, 汉语
 
 #	Pronouns
