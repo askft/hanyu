@@ -15,11 +15,64 @@ as time passes by.
 By running the main script, you will be introduced to a program that will let
 you practice your vocabulary by translating words.
 
+## Practicing on you own words
+
+You don't need to use the word list provided (which is for practicing Chinese).
+You can make your own files with words in them. They have to abide by the
+following format:
+
+```
+! Language 1, Language 2, Language 3
+
+
+# Category 1
+
+word1a - word1b - word1c
+word2a - word2b - word2c
+word3a - word3b - word3c
+
+; use the semicolon character to make a comment
+
+
+# Category 2
+
+word4a - word4b - word4c
+word5a - word5b - word5c
+word6a - word6b - word6c
+```
+
+A line can have several definitions for a word, like the following line:
+
+```
+hello, hi - hola
+```
+
+Entering either "hello" or "hi" when translating "hola" will count as a correct
+answer.
+
+See the file `words-num.txt` or `words-acc.txt` for an example of such a file.
+
+After creating the file, you can practice on the words like this:
+
+```
+python 2_collect.py  <word_file> <tmp_file>
+python 3_practice.py <tmp_file>
+```
+
+where `<word_file>` is the file with words and their translations, and
+`<tmp_file>` is just a file that's easy for `3_practicy.py` to parse. You can
+safely remove `<tmp_file>` when you're done.
+
+There is a script `example_run.sh` that does exactly the above. Run it and see.
+
 
 ## Installation / Usage
 
 **Requirements:**
 * [Python 3](https://www.python.org/downloads/)
+
+The run script (`run.sh`) uses `python3`. You may need to change it to just
+`python` (most likely if you are on Windows).
 
 **Mac OS X or GNU+Linux**
 
@@ -31,8 +84,16 @@ cd hanyu
 
 **Windows**
 
-(Instructions coming. Should be easy to run. Characters may mess things up
-for you however.)
+* Unless you've got a terminal with support for Unicode characters, you may run
+into problems.
+* The program has barely been tested on Windows, so I cannot guarantee that it
+works well.
+
+```
+git clone https://github.com/AlexanderSkafte/hanyu.git
+cd hanyu
+run.sh
+```
 
 
 ## Files

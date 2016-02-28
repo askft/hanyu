@@ -1,0 +1,19 @@
+
+! Language 1, Language 2, Language 3
+
+
+# Category 1
+
+word1a - word1b - word1c
+word2a - word2b - word2c
+word3a - word3b - word3c
+
+; use the semicolon character to make a comment
+
+
+# Category 2
+
+word4a - word4b - word4c
+word5a - word5b - word5c
+word6a - word6b - word6c
+
