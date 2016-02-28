@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import io
 import os
 import sys
 
@@ -9,7 +10,7 @@ from util import *
 
 def main(input, output):
 
-	with open(input,  'r', encoding='utf-8') as fin:
+	with io.open(input,  'r', encoding='utf-8') as fin:
 
 		outlines = []
 
@@ -42,7 +43,7 @@ def main(input, output):
 
 				outlines.append(outline)
 
-	with open(output, 'w', encoding='utf-8') as fout:
+	with io.open(output, 'w', encoding='utf-8') as fout:
 		fout.write(os.linesep.join(outlines))
 
 

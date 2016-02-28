@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import io
 import random
 import sys
 
@@ -165,7 +166,7 @@ def practice(lang_from, lang_to, correct, incorrect, unanswered):
 def main(input_filename):
 
 	# Read categories and words from file and load into a dictionary
-	with open(input_filename, 'r', encoding='utf-8') as file:
+	with io.open(input_filename, 'r', encoding='utf-8') as file:
 		d = create_dictionary_from_file(file)
 
 	print("\n   --- 学汉语 ---\n")
