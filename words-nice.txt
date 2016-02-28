@@ -21,10 +21,10 @@ older brother | gēge | 哥哥
 older sister | jiějie | 姐姐
 younger brother | dìdi | 弟弟
 younger sister | mèimei | 妹妹
-mother's mother | nǎinai | 奶奶
-father's mother | lǎolao, wàipó | 姥姥, 外婆
-mother's father | yéye | 爷爷
-mother's mother | lǎoye, wàigōng | 姥爷, 外公
+father's mother | nǎinai | 奶奶
+mother's mother | lǎolao, wàipó | 姥姥, 外婆
+father's father | yéye | 爷爷
+mother's father | lǎoye, wàigōng | 姥爷, 外公
 # Occupations
 student | xuéshēng | 学生
 teacher | lǎoshī | 老师
@@ -68,7 +68,7 @@ Wednesday | xīngqīsān | 星期三
 Thursday | xīngqīsì | 星期四
 Friday | xīngqīwǔ | 星期五
 Saturday | xīngqīliù | 星期六
-Sunday | xīngqītiān | 星期天
+Sunday | xīngqītiān, xīngqīrì | 星期天
 # Clock
 hour | diǎn | 点
 minute | fēn | 分
@@ -184,7 +184,7 @@ sun | rì | 日
 please | qǐng | 请
 breakfast | zǎofàn | 早饭
 lunch | wǔfàn | 午饭
-dinner | wànfàn | 晚饭
+dinner | wǎnfàn | 晚饭
 # Common phrases
 hello | nǐ hǎo | 你好
 goodbye | zàijiàn | 再见

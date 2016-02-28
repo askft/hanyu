@@ -9,6 +9,9 @@ from word       import *
 from util       import *
 
 
+DEBUG = False
+
+
 def create_dictionary_from_file(file):
 
 	first_line = file.readline()
@@ -41,7 +44,6 @@ def choose_languages(available_languages):
 	for lang in available_languages:
 		print(" - [%d] %s" % (i, lang))
 		i += 1
-
 	print()
 
 	(lang_from, lang_to) = (None, None)
@@ -61,7 +63,6 @@ def choose_languages(available_languages):
 
 		else:
 			break
-
 	print()
 
 	return (lang_from, lang_to)
@@ -74,17 +75,16 @@ def choose_categories(available_categories):
 	for category in available_categories:
 		print(" - [%d] %s" % (i, category))
 		i += 1
-
 	print()
 
 	chosen_categories = None
+	print(
+		"Enter categories to include words from.\n"
+		"Separate choices by whitespace.\n"
+		"Enter nothing to include all categories.\n")
 	while True:
 		try:
-			user_input = input(
-					"Enter categories to include words from.\n"
-					"Separate choices by whitespace.\n"
-					"Enter nothing to include all categories.\n"
-					"Input: ")
+			user_input = input("Choose category: ")
 
 			choices = [int(x.strip()) for x in user_input.split()]
 
@@ -99,22 +99,16 @@ def choose_categories(available_categories):
 
 		else:
 			break
+	print()
 
 	return chosen_categories
 
 
-# TODO
-#  Fix for unanswered words and ?exit exiting if incorrect_words is empty
+def practice(lang_from, lang_to, correct, incorrect, unanswered):
 
-def practice(lang_from, lang_to, words):
-
-	num_correct      = 0
-	num_incorrect    = 0
-
-	correct    = []
-	incorrect  = []
-	unanswered = list(words)
-
+	# Note on the shuffle: the + function returns a copy.
+	words = incorrect + unanswered
+	random.shuffle(words)
 	for word in words:
 
 		challenge = ', '.join(word.list[lang_from])
@@ -128,25 +122,49 @@ def practice(lang_from, lang_to, words):
 
 			a = convert_to_acc(a) 
 
+			# Correct answer
 			if a in word.list[lang_to]:
-				num_correct += 1
-				correct.append(word)
+
+				if word in unanswered:
+					unanswered.remove(word)
+					if DEBUG: print("Removed %s from unanswered" % word)
+
+				if word in incorrect:
+					incorrect.remove(word)
+					if DEBUG: print("Removed %s from incorrect" % word)
+
+				# Is this check necessary? (If not, just append the word).
+				if word not in correct:
+					correct.append(word)
+					if DEBUG: print("Added %s to correct" % word)
+				else:
+					if DEBUG: print("The correct check is necessary!")
+
 				print(GREEN + "'" + a + "' is correct. Good!\n" + ENDC)
 				break
 
+			# Incorrect answer
 			else:
-				num_incorrect += 1
 				s = ' | '.join([', '.join(x) for x in word.list])
-				incorrect.append(word)
+
+				if word in unanswered:
+					if DEBUG: print("Removed %s from unanswered" % word)
+					unanswered.remove(word)
+
+				# Is this check necessary? (If not, just append the word).
+				if word not in incorrect:
+					incorrect.append(word)
+					if DEBUG: print("Added %s to incorrect" % word)
+				else:
+					if DEBUG: print("The incorrect check is necessary!")
+
 				print(RED + "Bad! Correct answer: ( %s ).\n" % (s) + ENDC)
 				break
 
-		unanswered.remove(word)
-
-	return (num_correct, num_incorrect, correct, incorrect, unanswered)
-
 
 def main(input_filename):
+
+	# Read categories and words from file and load into a dictionary
 	with open(input_filename, 'r') as file:
 		d = create_dictionary_from_file(file)
 
@@ -157,21 +175,20 @@ def main(input_filename):
 
 	words = list(d.get_words_for_categories(chosen_categories))
 
-	num_correct   = 0
-	num_incorrect = 0
+	correct    = []
+	incorrect  = []
+	unanswered = list(words)
+
+	random.shuffle(unanswered)
 
 	try_again = True
 	while try_again:
 
-		random.shuffle(words)
+		practice(lang_from, lang_to, correct, incorrect, unanswered)
 
-		(new_num_correct, new_num_incorrect, correct, incorrect, unanswered) = \
-			practice(lang_from, lang_to, words)
-
-		num_correct   += new_num_correct
-		num_incorrect += new_num_incorrect
-
-		ratio = num_correct / (num_correct + num_incorrect)
+		if not incorrect and not unanswered:
+			print("Congratulations! You got all of the words right.\n")
+			break
 
 		total = len(correct) + len(incorrect) + len(unanswered)
 		print(
@@ -182,44 +199,50 @@ def main(input_filename):
 				RED,    ENDC, len(incorrect),  total,
 				YELLOW, ENDC, len(unanswered), total))
 
-
-#		print("You got " + YELLOW + ("%.2f %%" % (ratio * 100.0)) + ENDC + \
-#				" of the words " + GREEN + "correct.\n" + ENDC)
-
-		if not incorrect and not unanswered:
-			print("Congratulations!\n")
-			break
-
-		print(GREEN + "The following words were correct:" + ENDC)
-		for word in correct:
-			s = ' | '.join([', '.join(x) for x in word.list])
-			print(" - %s" % s)
-		print()
-
-		print(RED + "The following words were incorrect:" + ENDC)
-		for word in incorrect:
-			s = ' | '.join([', '.join(x) for x in word.list])
-			print(" - %s" % s)
-		print()
-
-		print(YELLOW + "The following words were left unanswered:" + ENDC)
-		for word in unanswered:
-			s = ' | '.join([', '.join(x) for x in word.list])
-			print(" - %s" % s)
+		while True:
+			choice = input("Show remaining words? [y/n] ")
+			if choice == 'y':
+				def show(list, color, name):
+					if not list:
+						return
+					print(color + "The following words were %s:" % name + ENDC)
+					list.sort(key=lambda w: w.list[0][0], reverse=True)
+					for word in list:
+						s = ' | '.join([', '.join(x) for x in word.list])
+						print(" - %s" % s)
+				show(correct,    GREEN,  "correct")
+				show(incorrect,  RED,    "incorrect")
+				show(unanswered, YELLOW, "unanswered")
+				break
+			elif choice == 'n':
+				break
+			else:
+				print("Invalid input. Please try again.\n")
 		print()
 
 		while True:
-			choice = input(
-					"Try again with the incorrect and unanswered words? [y/n] ")
+			remaining = ""
+			if incorrect and not unanswered:
+				remaining = "incorrect"
+			elif unanswered and not incorrect:
+				remaining = "unanswered"
+			elif incorrect and unanswered:
+				remaining = "incorrect and unanswered"
+			else:
+				break
+			# (The lists will never both be empty at the same time because of
+			# the break a few blocks up ("all words were answered correctly").
+			# Hence we don't actually need an else statement.)
+			choice = input("Try again with the %s words? [y/n] " % remaining)
 			if choice == 'y':
-				words = incorrect + unanswered
 				break
 			elif choice == 'n':
 				print("Thank you for using the program.")
 				try_again = False
 				break
 			else:
-				print("Invalid input. Please try again.")
+				print("Invalid input. Please try again.\n")
+		print()
 
 
 if __name__ == '__main__':
@@ -228,4 +251,32 @@ if __name__ == '__main__':
 		exit(1)
 	main(sys.argv[1])
 
+
+#		for (words, color, name) in [
+#						(correct,    GREEN,  "correct")
+#						(incorrect,  RED,    "incorrect")
+#						(unanswered, YELLOW, "unanswered")]:
+#			print(color + "The following words were %s:" % name + ENDC)
+#			for word in words:
+#				s = ' | '.join([', '.join(x) for x in word.list])
+#				print(" - %s" % s)
+#			print()
+
+#		print(GREEN + "The following words were correct:" + ENDC)
+#		for word in correct:
+#			s = ' | '.join([', '.join(x) for x in word.list])
+#			print(" - %s" % s)
+#		print()
+#
+#		print(RED + "The following words were incorrect:" + ENDC)
+#		for word in incorrect:
+#			s = ' | '.join([', '.join(x) for x in word.list])
+#			print(" - %s" % s)
+#		print()
+#
+#		print(YELLOW + "The following words were left unanswered:" + ENDC)
+#		for word in unanswered:
+#			s = ' | '.join([', '.join(x) for x in word.list])
+#			print(" - %s" % s)
+#		print()
 

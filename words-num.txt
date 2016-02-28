@@ -46,10 +46,10 @@ older brother		- ge1ge			- 哥哥
 older sister		- jie3jie		- 姐姐
 younger brother		- di4di			- 弟弟
 younger sister		- me4imei		- 妹妹
-mother's mother		- na3inai		- 奶奶
-father's mother		- la3olao, wa4ipo2		- 姥姥, 外婆
-mother's father		- ye2ye			- 爷爷
-mother's mother		- la3oye, wa4igo1ng	- 姥爷, 外公
+father's mother		- na3inai		- 奶奶
+mother's mother		- la3olao, wa4ipo2		- 姥姥, 外婆
+father's father		- ye2ye			- 爷爷
+mother's father		- la3oye, wa4igo1ng	- 姥爷, 外公
 
 
 #	Occupations
