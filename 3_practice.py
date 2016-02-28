@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import io
+import os
 import random
 import sys
 
@@ -60,7 +61,7 @@ def choose_languages(available_languages):
 				raise ValueError
 
 		except (ValueError, IndexError):
-			print("Invalid input. Please try again.\n")
+			print("Invalid input. Please try again." + os.linesep)
 
 		else:
 			break
@@ -80,9 +81,9 @@ def choose_categories(available_categories):
 
 	chosen_categories = None
 	print(
-		"Enter categories to include words from.\n"
-		"Separate choices by whitespace.\n"
-		"Enter nothing to include all categories.\n")
+		"Enter categories to include words from." + os.linesep +
+		"Separate choices by whitespace." + os.linesep +
+		"Enter nothing to include all categories." + os.linesep)
 	while True:
 		try:
 			user_input = input("Choose category: ")
@@ -96,7 +97,7 @@ def choose_categories(available_categories):
 				chosen_categories = available_categories
 
 		except (ValueError, IndexError):
-			print("Invalid input. Please try again.\n")
+			print("Invalid input. Please try again." + os.linesep)
 
 		else:
 			break
@@ -141,7 +142,7 @@ def practice(lang_from, lang_to, correct, incorrect, unanswered):
 				else:
 					if DEBUG: print("The correct check is necessary!")
 
-				print(GREEN + "'" + a + "' is correct. Good!\n" + ENDC)
+				print(GREEN + "'" + a + "' is correct. Good!" + os.linesep + ENDC)
 				break
 
 			# Incorrect answer
@@ -159,7 +160,8 @@ def practice(lang_from, lang_to, correct, incorrect, unanswered):
 				else:
 					if DEBUG: print("The incorrect check is necessary!")
 
-				print(RED + "Bad! Correct answer: ( %s ).\n" % (s) + ENDC)
+				print(RED + ("Bad! Correct answer: ( %s )." + os.linesep)
+						% (s) + ENDC)
 				break
 
 
@@ -169,7 +171,7 @@ def main(input_filename):
 	with io.open(input_filename, 'r', encoding='utf-8') as file:
 		d = create_dictionary_from_file(file)
 
-	print("\n   --- 学汉语 ---\n")
+	print(os.linesep + u"   --- 学汉语 ---" + os.linesep)
 
 	(lang_from, lang_to) = choose_languages(d.get_languages())
 	chosen_categories    = choose_categories(d.get_categories())
@@ -188,14 +190,14 @@ def main(input_filename):
 		practice(lang_from, lang_to, correct, incorrect, unanswered)
 
 		if not incorrect and not unanswered:
-			print("Congratulations! You got all of the words right.\n")
+			print("Congratulations! You got all of the words right." + os.linesep)
 			break
 
 		total = len(correct) + len(incorrect) + len(unanswered)
-		print(
-			"%sCorrect:%s    %d of %d\n"
-			"%sIncorrect:%s  %d of %d\n"
-			"%sUnanswered:%s %d of %d\n" % (
+		print((
+			"%sCorrect:%s    %d of %d" + os.linesep +
+			"%sIncorrect:%s  %d of %d" + os.linesep +
+			"%sUnanswered:%s %d of %d" + os.linesep) % (
 				GREEN,  ENDC, len(correct),    total,
 				RED,    ENDC, len(incorrect),  total,
 				YELLOW, ENDC, len(unanswered), total))
@@ -207,7 +209,7 @@ def main(input_filename):
 					if not list:
 						return
 					print(color + "The following words were %s:" % name + ENDC)
-					list.sort(key=lambda w: w.list[0][0], reverse=True)
+					list.sort(key=lambda w: w.list[0][0])
 					for word in list:
 						s = ' | '.join([', '.join(x) for x in word.list])
 						print(" - %s" % s)
@@ -218,7 +220,7 @@ def main(input_filename):
 			elif choice == 'n':
 				break
 			else:
-				print("Invalid input. Please try again.\n")
+				print("Invalid input. Please try again." + os.linesep)
 		print()
 
 		while True:
@@ -242,7 +244,7 @@ def main(input_filename):
 				try_again = False
 				break
 			else:
-				print("Invalid input. Please try again.\n")
+				print("Invalid input. Please try again." + os.linesep)
 		print()
 
 
