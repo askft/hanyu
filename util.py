@@ -36,7 +36,7 @@ def islanguage(line):
 
 
 def split(s, delimiter):
-	"""Split a string "x DELIMITER_NUM y DELIMITER_NUM z"
+	"""Split a string "x delimiter y delimiter z"
 	into a list ['x','y','z'].
 	"""
 	return [w.strip() for w in s.split(delimiter)]

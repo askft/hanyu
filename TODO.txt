@@ -10,6 +10,8 @@
 * If a word contains a dash character ('-') the split will fail. Use another
   delimiter, perhaps?
 
+* [DONE] Show category for each word in the practice program
+
 * [DONE] Tell the user that they can write ?pause to "pause"
 
 * [DONE] Collect all kinds of seperators, identifiers etc in file file. Be

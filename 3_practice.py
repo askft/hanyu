@@ -116,6 +116,7 @@ def practice(lang_from, lang_to, correct, incorrect, unanswered):
 	for word in words:
 
 		challenge = ', '.join(word.list[lang_from])
+		print("Category: %s" % (', '.join(word.categories)))
 		answer = split(input("Translate '%s': " % challenge), ',')
 
 		if ''.join(answer) == PAUSE_COMMAND:

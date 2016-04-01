@@ -47,6 +47,9 @@ engineer | gōngchéngshī | 工程师
 1000 | qiān | 千
 10000 | wàn | 万
 # Time
+now | xiànzài | 现在
+before | yǐqián | 以前
+after | yǐhòu | 以后
 this (day/year) | jīn | 今
 this (week) | běn | 本
 recently | zuìjìn | 最近
@@ -57,6 +60,9 @@ day | tiān | 天
 yesterday | zuótiān | 昨天
 today | jīntiān | 今天
 tomorrow | míngtiān | 明天
+tonight | jīnwǎn | 今晚
+month | yuè | 月
+date, day | hào | 号
 year | nián | 年
 last year | qùnián | 去年
 this year | jīnnián | 今年
@@ -99,8 +105,8 @@ how many, what, several | jǐ | 几
 how many, how much | duōshǎo | 多少
 # Places
 bookstore | shūdiàn | 书店
-café | kāfēidiàn | 咖啡厅
-library | túshūguǎn | 体术官
+café | kāfēidiàn | 咖啡店
+library | túshūguǎn | 图书馆
 park | gōngyuán | 公园
 restaurant | fàndiàn | 饭店
 school | xuéxiào | 学校
@@ -127,10 +133,11 @@ no, not | bù | 不
 very, too, excessively | tài | 太
 that | nà | 那
 there | nàr | 那儿
-here | zhèr | 这儿
+here | zhèr, zhèlǐ | 这儿, 这里
 this | zhè | 这
 some, few, several | xiē | 些
 years old | suì | 岁
+already | yǐjīng | 已经
 # Classifiers
 (general) | gè | 个
 (family members) | kǒu | 口
@@ -140,12 +147,16 @@ on, upon | shàng | 上
 below, under | xià | 下
 in, inside, inner | lǐ | 里
 out, outside, outer | wài | 外
+beside | pángbiān | 旁边
+right | yòubiān | 右边
+left | zuǒbiān | 左边
 # Adjectives
 big | dà | 大
 busy | máng | 忙
 cold | lěng | 冷
 difficult, hard | nán | 难
 easy, simple | jiǎndān | 简单
+foreign | guówài | 国外
 hot | rè | 热
 white | bái | 白
 # Adverbs
@@ -154,13 +165,18 @@ extremely | fēicháng | 非常
 # Verbs
 be | shì | 是
 buy | mǎi | 买
+do, make | zuò | 做
 drink | hē | 喝
 eat | chī | 吃
 enter, come in | jìn | 进
 go | qù | 去
 have, exist | yǒu | 有
+know | zhīdào | 知道
 like | xǐhuān | 喜欢
 live | zhù | 住
+play (general) | wánr | 玩儿
+play, kick | tī | 踢
+pluck | tán, dàn | 弹
 put | fàng | 放
 read | kàn | 看
 return | huí | 回
@@ -170,8 +186,8 @@ study | xué | 学
 throw | rēng | 扔
 work | gōngzuò | 工作
 want | yào | 要
-pluck | tán, dàn | 弹
-# Other
+# Nouns
+baby | bǎobae | 宝宝
 body, health | shēntǐ | 身体
 book | shū | 书
 child, kid | háizi | 孩子
@@ -179,6 +195,8 @@ computer | diànnǎo | 电脑
 computer science | jìsuànjīkēxué | 计算机科学
 horse | mǎ | 马
 mouth | kǒu | 口
+floor, ground | dì | 地
+flower | huā | 花
 guitar | jítā | 吉他
 sun | rì | 日
 please | qǐng | 请
@@ -197,5 +215,15 @@ you are welcome | búkèqi | 不客气
 happy weekend | zhōumò kuàile | 周末快乐
 you too | nǐyěshì | 你也是
 see you later | huíjiàn | 回见
-don't, do not | bùyào | 不要
-how much money? | duōshǎo qián? | 多少钱？
+don't, do not | bùyào, bié | 不要, 别
+how much does it cost? | duōshǎo qián? | 多少钱？
+what time is it? | jǐ diǎn le? | 几点了
+# Food and drink
+egg | dàn | 蛋
+fruit | guǒ | 果
+meat | ròu | 肉
+pepper | jiāo | 椒
+soup | tāng | 汤
+spicy, hot | là | 辣
+order | diǎn | 点
+pay for the food | mǎi dān | 买单
