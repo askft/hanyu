@@ -13,6 +13,7 @@ they [f], them [f] | tāmen [f] | 她们
 friend | péngyou | 朋友
 male | nán | 男
 female | nǚ | 女
+waiter, waitress | fúwùyuán | 服务员
 # Family
 father | bàba | 爸爸
 mother | māma | 妈妈
@@ -126,6 +127,7 @@ Swedish language | Ruìdiǎnyǔ | 瑞典语
 # Uncategorized
 and | hé | 和
 also, too, as well | yě | 也
+all, both, every, each | dōu | 都
 correct, exactly | duì | 对
 yes | shì | 是
 no (past) | méi | 没
@@ -158,6 +160,7 @@ difficult, hard | nán | 难
 easy, simple | jiǎndān | 简单
 foreign | guówài | 国外
 hot | rè | 热
+satisfied | mǎnyì | 满意
 white | bái | 白
 # Adverbs
 very | hěn | 很
@@ -169,17 +172,20 @@ do, make | zuò | 做
 drink | hē | 喝
 eat | chī | 吃
 enter, come in | jìn | 进
+feel, sense, think | juéde | 觉得
 go | qù | 去
 have, exist | yǒu | 有
 know | zhīdào | 知道
 like | xǐhuān | 喜欢
+listen | tīng | 听
 live | zhù | 住
 play (general) | wánr | 玩儿
 play, kick | tī | 踢
 pluck | tán, dàn | 弹
 put | fàng | 放
-read | kàn | 看
+read | kàn, dú | 看, 读
 return | huí | 回
+say, talk, speak | shuō | 说
 see, meet | jiàn | 见
 sit | zuò | 坐
 study | xué | 学
@@ -203,6 +209,19 @@ please | qǐng | 请
 breakfast | zǎofàn | 早饭
 lunch | wǔfàn | 午饭
 dinner | wǎnfàn | 晚饭
+# Food and drink
+egg | dàn | 蛋
+bitter | kǔ | 苦
+fruit | guǒ | 果
+meat | ròu | 肉
+pepper | jiāo | 椒
+soup | tāng | 汤
+sour | suān | 酸
+spicy, hot | là | 辣
+sweet | tián | 甜
+salty | xián | 咸
+order | diǎn | 点
+pay for the food | mǎi dān | 买单
 # Common phrases
 hello | nǐ hǎo | 你好
 goodbye | zàijiàn | 再见
@@ -218,12 +237,7 @@ see you later | huíjiàn | 回见
 don't, do not | bùyào, bié | 不要, 别
 how much does it cost? | duōshǎo qián? | 多少钱？
 what time is it? | jǐ diǎn le? | 几点了
-# Food and drink
-egg | dàn | 蛋
-fruit | guǒ | 果
-meat | ròu | 肉
-pepper | jiāo | 椒
-soup | tāng | 汤
-spicy, hot | là | 辣
-order | diǎn | 点
-pay for the food | mǎi dān | 买单
+what does it mean? | shénme yìsi? | 什么意思
+I do not understand | wǒ bù dǒng | 我不懂
+I did not understand | wǒ méi tīngdǒng | 我没听懂
+please say it again | qǐng zài shuō yī biàn | 请再说一遍

@@ -41,7 +41,7 @@ they [f], them [f]	- ta1men [f]			- 她们
 friend			- pe2ngyou		- 朋友
 male			- na2n			- 男
 female			- nü3			- 女
-
+waiter, waitress	- fu2wu4yua2n		- 服务员
 
 #	Family
 
@@ -210,6 +210,7 @@ Swedish language	- Rui4dia3nyu3		- 瑞典语
 
 and			- he2			- 和
 also, too, as well	- ye3			- 也
+all, both, every, each	- do1u			- 都
 
 correct, exactly	- dui4			- 对
 yes			- shi4			- 是
@@ -261,6 +262,7 @@ difficult, hard		- na2n			- 难
 easy, simple		- jia3nda1n		- 简单
 foreign			- guo2wa4i		- 国外
 hot			- re4			- 热
+satisfied		- ma3nyi4		- 满意 
 white			- ba2i			- 白
 
 
@@ -278,17 +280,20 @@ do, make		- zuo4			- 做
 drink			- he1			- 喝
 eat			- chi1			- 吃
 enter, come in		- ji4n			- 进
+feel, sense, think	- jue2de		- 觉得
 go			- qu4			- 去
 have, exist		- yo3u			- 有
 know			- zhi1da4o		- 知道
 like			- xi3hua1n		- 喜欢
+listen			- ti1ng			- 听
 live			- zhu4			- 住
 play (general)		- wa2nr			- 玩儿
 play, kick		- ti1			- 踢
 pluck			- ta2n, da4n		- 弹
 put			- fa4ng			- 放
-read			- ka4n			- 看
+read			- ka4n, du2		- 看, 读
 return			- hui2			- 回
+say, talk, speak	- shuo1			- 说
 see, meet		- jia4n			- 见
 sit			- zuo4			- 坐
 study			- xue2			- 学
@@ -317,6 +322,24 @@ lunch			- wu3fa4n		- 午饭
 dinner			- wa3nfa4n		- 晚饭
 
 
+#	Food and drink
+
+egg			- da4n			- 蛋
+bitter			- ku3			- 苦
+fruit			- guo3			- 果
+meat			- ro4u			- 肉
+pepper			- jia1o			- 椒
+soup			- ta1ng			- 汤
+sour			- sua1n			- 酸
+spicy, hot		- la4			- 辣
+sweet			- tia2n			- 甜
+salty			- xia2n			- 咸
+
+order			- dia3n			- 点
+pay for the food	- ma3i da1n		- 买单
+;	oil			- yo2u			- 由
+
+
 #	Common phrases
 
 hello			- ni3 ha3o		- 你好
@@ -333,18 +356,8 @@ see you later		- hui2jia4n		- 回见
 don't, do not		- bu4ya4o, bie2		- 不要, 别
 how much does it cost?	- duo1sha3o qia2n?	- 多少钱？
 what time is it?	- ji3 dia3n le?		- 几点了
-
-
-#	Food and drink
-
-egg			- da4n			- 蛋
-fruit			- guo3			- 果
-meat			- ro4u			- 肉
-pepper			- jia1o			- 椒
-soup			- ta1ng			- 汤
-spicy, hot		- la4			- 辣
-
-order			- dia3n			- 点
-pay for the food	- ma3i da1n		- 买单
-;	oil			- yo2u			- 由
+what does it mean?	- she2nme yi4si?	- 什么意思
+I do not understand	- wo3 bu4 do3ng		- 我不懂
+I did not understand	- wo3 me2i ti1ngdo3ng	- 我没听懂
+please say it again	- qi3ng za4i shuo1 yi1 bia4n	- 请再说一遍
 

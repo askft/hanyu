@@ -3,6 +3,8 @@
 
 * http://vim.wikia.com/wiki/Converting_tabs_to_spaces
 
+* Add HTML output
+
 * Add a timer
 
 * Make option to save progress to a file to continue later
