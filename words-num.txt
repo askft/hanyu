@@ -19,17 +19,18 @@
 ;	Add yao, xiang, hui etc
 ;	west, east, north, south   (ern)
 ;	yo3udia3nr, yi1dia3nr
+;	gongjin, jin
 
 
 ! English, Pi1nyi1n, 汉语
 
 #	Pronouns
 
-I, me			- wo3			- 我
-you			- ni3			- 你
-You			- ni2n			- 您
-he, him			- ta1 [m]		- 他
-she, her		- ta1 [f]		- 她
+I, me			- wo3				- 我
+you			- ni3				- 你
+You			- ni2n				- 您
+he, him			- ta1 [m]			- 他
+she, her		- ta1 [f]			- 她
 we, us			- wo3men			- 我们
 you [p]			- ni3men			- 你们
 they [m], them [m]	- ta1men [m]			- 他们
@@ -38,51 +39,51 @@ they [f], them [f]	- ta1men [f]			- 她们
 
 #	Persons
 
-friend			- pe2ngyou		- 朋友
-male			- na2n			- 男
-female			- nü3			- 女
-waiter, waitress	- fu2wu4yua2n		- 服务员
+friend			- pe2ngyou			- 朋友
+male			- na2n				- 男
+female			- nü3				- 女
+waiter, waitress	- fu2wu4yua2n			- 服务员
 
 #	Family
 
-father			- ba4ba			- 爸爸
-mother			- ma1ma			- 妈妈
+father			- ba4ba				- 爸爸
+mother			- ma1ma				- 妈妈
 siblings		- xio1ngdijie3me4i		- 兄弟姐妹
-older brother		- ge1ge			- 哥哥
-older sister		- jie3jie		- 姐姐
-younger brother		- di4di			- 弟弟
-younger sister		- me4imei		- 妹妹
-father's mother		- na3inai		- 奶奶
+older brother		- ge1ge				- 哥哥
+older sister		- jie3jie			- 姐姐
+younger brother		- di4di				- 弟弟
+younger sister		- me4imei			- 妹妹
+father's mother		- na3inai			- 奶奶
 mother's mother		- la3olao, wa4ipo2		- 姥姥, 外婆
-father's father		- ye2ye			- 爷爷
-mother's father		- la3oye, wa4igo1ng	- 姥爷, 外公
+father's father		- ye2ye				- 爷爷
+mother's father		- la3oye, wa4igo1ng		- 姥爷, 外公
 
 
 #	Occupations
 
-student			- xue2she1ng		- 学生
-teacher			- la3oshi1		- 老师
-doctor			- yi1she1ng		- 医生
-businessman		- sha1ngre2n		- 商人
+student			- xue2she1ng			- 学生
+teacher			- la3oshi1			- 老师
+doctor			- yi1she1ng			- 医生
+businessman		- sha1ngre2n			- 商人
 engineer		- go1ngche2ngshi1		- 工程师
 
 
 #	Numbers and counting
 
-0			- li2ng			- 零
-1			- yi1			- 一
-2			- e4r			- 二
-3			- sa1n			- 三
-4			- si4			- 四
-5			- wu3			- 五
-6			- liu4			- 六
-7			- qi1			- 七
-8			- ba1			- 八
-9			- jiu3			- 九
-10			- shi2			- 十
-100			- ba3i			- 百
-1000			- qia1n			- 千
-10000			- wa4n			- 万
+0			- li2ng				- 零
+1			- yi1				- 一
+2			- e4r				- 二
+3			- sa1n				- 三
+4			- si4				- 四
+5			- wu3				- 五
+6			- liu4				- 六
+7			- qi1				- 七
+8			- ba1				- 八
+9			- jiu3				- 九
+10			- shi2				- 十
+100			- ba3i				- 百
+1000			- qia1n				- 千
+10000			- wa4n				- 万
 
 
 ; 1x			-    shi,    shiyi,    shier,    shisan, ...
@@ -100,30 +101,32 @@ engineer		- go1ngche2ngshi1		- 工程师
 
 #	Time
 
-now			- xia4nza4i		- 现在
-before			- yi3qia2n		- 以前
-after			- yi3ho4u		- 以后
+now			- xia4nza4i			- 现在
+before			- yi3qia2n			- 以前
+after			- yi3ho4u			- 以后
 
-this (day/year)		- ji1n			- 今
-this (week)		- be3n			- 本
-recently		- zui4ji4n		- 最近
+time, period, moment	- shi2ho4u			- 时候
 
-early, morning		- za3o			- 早
-noon, midday		- wu3			- 午
-late, evening, night	- wa3n			- 晚
-day			- tia1n			- 天
-yesterday		- zuo2tia1n		- 昨天
-today			- ji1ntia1n		- 今天
-tomorrow		- mi2ngtia1n		- 明天
-tonight			- ji1nwa3n		- 今晚
+this (day/year)		- ji1n				- 今
+this (week)		- be3n				- 本
+recently		- zui4ji4n			- 最近
 
-month			- yue4			- 月
-date, day		- ha4o			- 号
+early, morning		- za3o				- 早
+noon, midday		- wu3				- 午
+late, evening, night	- wa3n				- 晚
+day			- tia1n				- 天
+yesterday		- zuo2tia1n			- 昨天
+today			- ji1ntia1n			- 今天
+tomorrow		- mi2ngtia1n			- 明天
+tonight			- ji1nwa3n			- 今晚
 
-year			- nia2n			- 年
-last year		- qu4nia2n		- 去年
-this year		- ji1nnia2n		- 今年
-next year		- mi2ngnia2n		- 明年
+month			- yue4				- 月
+date, day		- ha4o				- 号
+
+year			- nia2n				- 年
+last year		- qu4nia2n			- 去年
+this year		- ji1nnia2n			- 今年
+next year		- mi2ngnia2n			- 明年
 
 week			- xi1ngqi1, zho1u		- 星期, 周
 Monday			- xi1ngqi1yi1			- 星期一
@@ -137,27 +140,27 @@ Sunday			- xi1ngqi1tia1n, xi1ngqi1ri4	- 星期天
 
 #	Clock
 
-hour			- dia3n			- 点
-minute			- fe1n			- 分
-second			- mia3o			- 秒
-quarter			- ke4			- 刻
-half			- ba4n			- 半
-short of		- cha4			- 差
-two o'clock		- lia3ngdia3n		- 亮点
+hour			- dia3n				- 点
+minute			- fe1n				- 分
+second			- mia3o				- 秒
+quarter			- ke4				- 刻
+half			- ba4n				- 半
+short of		- cha4				- 差
+two o'clock		- lia3ngdia3n			- 亮点
 
 
 #	Food and beverage
 
-alcohol, liquor		- jiu3			- 酒
+alcohol, liquor		- jiu3				- 酒
 beer			- pi2ji3u			- 啤酒
 Chinese cuisine		- Zho1ngguo2ca4i		- 中国菜
 coffee			- ka1fe1i			- 咖啡
-french fries		- shu3tia2o		- 薯条
-food, rice		- fa4n			- 饭
-juice			- guo3zh1		- 果汁
-milk			- niu2na3i		- 牛奶
-tea			- cha2			- 茶
-water			- shui3			- 水
+french fries		- shu3tia2o			- 薯条
+food, rice		- fa4n				- 饭
+juice			- guo3zh1			- 果汁
+milk			- niu2na3i			- 牛奶
+tea			- cha2				- 茶
+water			- shui3				- 水
 
 
 
@@ -165,78 +168,80 @@ water			- shui3			- 水
 
 ; http://www.dummies.com/how-to/content/how-to-ask-questions-in-chinese.html
 
-how			- ze3nmeya4ng		- 怎么样
-what			- she2nme		- 什么
-who			- shui2, she2i		- 谁
-which			- na3			- 哪
-where			- na3r			- 哪儿
-why			- we4ishe2nme		- 为什么
+how			- ze3nmeya4ng			- 怎么样
+what			- she2nme			- 什么
+who			- shui2, she2i			- 谁
+which			- na3				- 哪
+where			- na3r				- 哪儿
+why			- we4ishe2nme			- 为什么
 
-how many, what, several	- ji3			- 几
-how many, how much	- duo1sha3o		- 多少
+how many, what, several	- ji3				- 几
+how many, how much	- duo1sha3o			- 多少
 
 
 #	Places
 
-bookstore		- shu1dia4n		- 书店
-café			- ka1fe1idia4n		- 咖啡店
-library			- tu2shu1gua3n		- 图书馆
-park			- go1ngyua2n		- 公园
-restaurant		- fa4ndia4n		- 饭店
-school			- xue2xia4o		- 学校
-supermarket		- cha1oshi4		- 超市
+bookstore		- shu1dia4n			- 书店
+café			- ka1fe1idia4n			- 咖啡店
+library			- tu2shu1gua3n			- 图书馆
+park			- go1ngyua2n			- 公园
+restaurant		- fa4ndia4n			- 饭店
+school			- xue2xia4o			- 学校
+supermarket		- cha1oshi4			- 超市
 
 
 
 #	Nationality
 
-country, nation		- guo2			- 国
+country, nation		- guo2				- 国
 foreign language	- wa4iyu3			- 外语
 
-China			- Zho1ngguo2		- 中国
+China			- Zho1ngguo2			- 中国
 Chinese person		- Zho1ngguo2re2n		- 中国人
 Chinese language	- Ha4nyu3			- 汉语
 
 Japan			- Ri4be3n			- 日本
-Japanese person		- Ri4be3nre2n		- 日本人
+Japanese person		- Ri4be3nre2n			- 日本人
 Japanese language	- Ri4yu3			- 日语
 
-Sweden			- Rui4dia3n		- 瑞典
-Swedish person		- Rui4dia3nre2n		- 瑞典人
-Swedish language	- Rui4dia3nyu3		- 瑞典语
+Sweden			- Rui4dia3n			- 瑞典
+Swedish person		- Rui4dia3nre2n			- 瑞典人
+Swedish language	- Rui4dia3nyu3			- 瑞典语
 
 
 #	Uncategorized
 
-and			- he2			- 和
-also, too, as well	- ye3			- 也
-all, both, every, each	- do1u			- 都
+and			- he2				- 和
+also, too, as well	- ye3				- 也
+all, both, every, each	- do1u				- 都
+altogether, total	- yi1go1ng			- 一共
 
-correct, exactly	- dui4			- 对
-yes			- shi4			- 是
-no (past)		- me2i			- 没
-no, not			- bu4			- 不
-very, too, excessively	- ta4i			- 太
+correct, exactly	- dui4				- 对
+yes			- shi4				- 是
+no (past)		- me2i				- 没
+no, not			- bu4				- 不
+very, too, excessively	- ta4i				- 太
 
-that			- na4			- 那
-there			- na4r			- 那儿
-here			- zhe4r, zhe4li3	- 这儿, 这里
-this			- zhe4			- 这
+that			- na4				- 那
+there			- na4r				- 那儿
+here			- zhe4r, zhe4li3		- 这儿, 这里
+this			- zhe4				- 这
 
-some, few, several	- xie1			- 些
+some, few, several	- xie1				- 些
 
-years old		- sui4			- 岁
+years old		- sui4				- 岁
 
-already			- yi3ji1ng		- 已经
+already			- yi3ji1ng			- 已经
 
 
 
-#	Classifiers
+#	Classifiers, measure words
 
 ; https://en.wikipedia.org/wiki/List_of_Chinese_classifiers
 
-(general)		- ge4			- 个
-(family members)	- ko3u			- 口
+(general)		- ge4				- 个
+(paper)			- zha1ng			- 张
+(family members)	- ko3u				- 口
 
 
 #	Prepositions
@@ -244,120 +249,121 @@ already			- yi3ji1ng		- 已经
 ; There's more English definitions than the below; please see
 ; https://translate.google.com/#zh-CN/en/CHARACTER
 
-at, in, by		- za4i			- 在
-on, upon		- sha4ng		- 上
-below, under		- xia4			- 下
-in, inside, inner	- li3			- 里
-out, outside, outer	- wa4i			- 外
-beside			- pa2ngbia1n		- 旁边
-right			- yo4ubia1n		- 右边
-left			- zuo3bia1n		- 左边
+at, in, by		- za4i				- 在
+on, upon		- sha4ng			- 上
+below, under		- xia4				- 下
+in, inside, inner	- li3				- 里
+out, outside, outer	- wa4i				- 外
+beside			- pa2ngbia1n			- 旁边
+right			- yo4ubia1n			- 右边
+left			- zuo3bia1n			- 左边
 
 #	Adjectives
 
-big			- da4			- 大
-busy			- ma2ng			- 忙
-cold			- le3ng			- 冷
-difficult, hard		- na2n			- 难
-easy, simple		- jia3nda1n		- 简单
-foreign			- guo2wa4i		- 国外
-hot			- re4			- 热
-satisfied		- ma3nyi4		- 满意 
-white			- ba2i			- 白
+big			- da4				- 大
+busy			- ma2ng				- 忙
+cold			- le3ng				- 冷
+difficult, hard		- na2n				- 难
+easy, simple		- jia3nda1n			- 简单
+foreign			- guo2wa4i			- 国外
+hot			- re4				- 热
+satisfied		- ma3nyi4			- 满意 
+white			- ba2i				- 白
 
 
 #	Adverbs
 
-very			- he3n			- 很
-extremely		- fe1icha2ng		- 非常
+very			- he3n				- 很
+extremely		- fe1icha2ng			- 非常
 
 
 #	Verbs
 
-be			- shi4			- 是
-buy			- ma3i			- 买
-do, make		- zuo4			- 做
-drink			- he1			- 喝
-eat			- chi1			- 吃
-enter, come in		- ji4n			- 进
-feel, sense, think	- jue2de		- 觉得
-go			- qu4			- 去
-have, exist		- yo3u			- 有
-know			- zhi1da4o		- 知道
-like			- xi3hua1n		- 喜欢
-listen			- ti1ng			- 听
-live			- zhu4			- 住
-play (general)		- wa2nr			- 玩儿
-play, kick		- ti1			- 踢
-pluck			- ta2n, da4n		- 弹
-put			- fa4ng			- 放
-read			- ka4n, du2		- 看, 读
-return			- hui2			- 回
-say, talk, speak	- shuo1			- 说
-see, meet		- jia4n			- 见
-sit			- zuo4			- 坐
-study			- xue2			- 学
-throw			- re1ng			- 扔
-work			- go1ngzuo4		- 工作
-want			- ya4o			- 要
+be			- shi4				- 是
+buy			- ma3i				- 买
+do, make		- zuo4				- 做
+drink			- he1				- 喝
+eat			- chi1				- 吃
+enter, come in		- ji4n				- 进
+feel, sense, think	- jue2de			- 觉得
+go			- qu4				- 去
+have, exist		- yo3u				- 有
+know			- zhi1da4o			- 知道
+like			- xi3hua1n			- 喜欢
+listen			- ti1ng				- 听
+live			- zhu4				- 住
+play (general)		- wa2nr				- 玩儿
+play, kick		- ti1				- 踢
+pluck			- ta2n, da4n			- 弹
+put			- fa4ng				- 放
+read			- ka4n, du2			- 看, 读
+return			- hui2				- 回
+say, talk, speak	- shuo1				- 说
+see, meet		- jia4n				- 见
+sit			- zuo4				- 坐
+study			- xue2				- 学
+throw			- re1ng				- 扔
+work			- go1ngzuo4			- 工作
+want			- ya4o				- 要
 
 
 #	Nouns
 
-baby			- ba3obae		- 宝宝
-body, health		- she1nti3		- 身体
-book			- shu1			- 书
-child, kid		- ha2izi		- 孩子
-computer		- dia4nna3o		- 电脑
-computer science	- ji4sua4nji1ke1xue2	- 计算机科学
-horse			- ma3			- 马
-mouth			- ko3u			- 口
-floor, ground		- di4			- 地
-flower			- hua1			- 花
-guitar			- ji2ta1		- 吉他
-sun			- ri4			- 日
-please			- qi3ng			- 请
-breakfast		- za3ofa4n		- 早饭
-lunch			- wu3fa4n		- 午饭
-dinner			- wa3nfa4n		- 晚饭
+baby			- ba3obae			- 宝宝
+body, health		- she1nti3			- 身体
+book			- shu1				- 书
+child, kid		- ha2izi			- 孩子
+computer		- dia4nna3o			- 电脑
+computer science	- ji4sua4nji1ke1xue2		- 计算机科学
+horse			- ma3				- 马
+mouth			- ko3u				- 口
+floor, ground		- di4				- 地
+flower			- hua1				- 花
+guitar			- ji2ta1			- 吉他
+sun			- ri4				- 日
+please			- qi3ng				- 请
+breakfast		- za3ofa4n			- 早饭
+lunch			- wu3fa4n			- 午饭
+dinner			- wa3nfa4n			- 晚饭
 
 
 #	Food and drink
 
-egg			- da4n			- 蛋
-bitter			- ku3			- 苦
-fruit			- guo3			- 果
-meat			- ro4u			- 肉
-pepper			- jia1o			- 椒
-soup			- ta1ng			- 汤
-sour			- sua1n			- 酸
-spicy, hot		- la4			- 辣
-sweet			- tia2n			- 甜
-salty			- xia2n			- 咸
+egg			- da4n				- 蛋
+bitter			- ku3				- 苦
+fruit			- guo3				- 果
+meat			- ro4u				- 肉
+pepper			- jia1o				- 椒
+soup			- ta1ng				- 汤
+sour			- sua1n				- 酸
+spicy, hot		- la4				- 辣
+sweet			- tia2n				- 甜
+salty			- xia2n				- 咸
 
-order			- dia3n			- 点
-pay for the food	- ma3i da1n		- 买单
-;	oil			- yo2u			- 由
+order			- dia3n				- 点
+pay for the food	- ma3i da1n			- 买单
+oil			- yo2u				- 油
 
 
 #	Common phrases
 
-hello			- ni3 ha3o		- 你好
-goodbye			- za4ijia4n		- 再见
-how are you?		- ni3 ha3o ma?		- 你好吗？
-what about you?		- ni3 ne?		- 你呢？
-sorry			- dui4bu4qi3		- 对不起
-it's all right		- me2igua1nxi		- 没关系
-thank you		- xie4xie		- 谢谢
-you are welcome		- bu2ke4qi		- 不客气
-happy weekend		- zho1umo4 kua4ile	- 周末快乐
-you too			- ni3ye3shi4		- 你也是
-see you later		- hui2jia4n		- 回见
-don't, do not		- bu4ya4o, bie2		- 不要, 别
-how much does it cost?	- duo1sha3o qia2n?	- 多少钱？
-what time is it?	- ji3 dia3n le?		- 几点了
-what does it mean?	- she2nme yi4si?	- 什么意思
-I do not understand	- wo3 bu4 do3ng		- 我不懂
-I did not understand	- wo3 me2i ti1ngdo3ng	- 我没听懂
+hello			- ni3 ha3o			- 你好
+goodbye			- za4ijia4n			- 再见
+how are you?		- ni3 ha3o ma?			- 你好吗？
+what about you?		- ni3 ne?			- 你呢？
+sorry			- dui4bu4qi3			- 对不起
+it's all right		- me2igua1nxi			- 没关系
+thank you		- xie4xie			- 谢谢
+you are welcome		- bu2ke4qi			- 不客气
+happy weekend		- zho1umo4 kua4ile		- 周末快乐
+you too			- ni3ye3shi4			- 你也是
+see you later		- hui2jia4n			- 回见
+don't, do not		- bu4ya4o, bie2			- 不要, 别
+how much does it cost?	- duo1sha3o qia2n?		- 多少钱？
+what time is it?	- ji3 dia3n le?			- 几点了
+what does it mean?	- she2nme yi4si?		- 什么意思
+I do not understand	- wo3 bu4 do3ng			- 我不懂
+I did not understand	- wo3 me2i ti1ngdo3ng		- 我没听懂
 please say it again	- qi3ng za4i shuo1 yi1 bia4n	- 请再说一遍
+you didn't give me the change - me2i zha3o qia2n	- 没找钱
 

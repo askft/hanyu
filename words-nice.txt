@@ -51,6 +51,7 @@ engineer | gōngchéngshī | 工程师
 now | xiànzài | 现在
 before | yǐqián | 以前
 after | yǐhòu | 以后
+time, period, moment | shíhòu | 时候
 this (day/year) | jīn | 今
 this (week) | běn | 本
 recently | zuìjìn | 最近
@@ -128,6 +129,7 @@ Swedish language | Ruìdiǎnyǔ | 瑞典语
 and | hé | 和
 also, too, as well | yě | 也
 all, both, every, each | dōu | 都
+altogether, total | yīgōng | 一共
 correct, exactly | duì | 对
 yes | shì | 是
 no (past) | méi | 没
@@ -140,8 +142,9 @@ this | zhè | 这
 some, few, several | xiē | 些
 years old | suì | 岁
 already | yǐjīng | 已经
-# Classifiers
+# Classifiers, measure words
 (general) | gè | 个
+(paper) | zhāng | 张
 (family members) | kǒu | 口
 # Prepositions
 at, in, by | zài | 在
@@ -222,6 +225,7 @@ sweet | tián | 甜
 salty | xián | 咸
 order | diǎn | 点
 pay for the food | mǎi dān | 买单
+oil | yóu | 油
 # Common phrases
 hello | nǐ hǎo | 你好
 goodbye | zàijiàn | 再见
@@ -241,3 +245,4 @@ what does it mean? | shénme yìsi? | 什么意思
 I do not understand | wǒ bù dǒng | 我不懂
 I did not understand | wǒ méi tīngdǒng | 我没听懂
 please say it again | qǐng zài shuō yī biàn | 请再说一遍
+you didn't give me the change | méi zhǎo qián | 没找钱
