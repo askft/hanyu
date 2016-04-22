@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from word import *
+
 class Dictionary:
-	"""A Dictionary is a list of Word objects.
-	"""
+	"""A Dictionary is a list of Word objects."""
 
 	def __init__(self, languages):
 		self.languages  = languages
@@ -34,3 +35,27 @@ class Dictionary:
 			words.append(self.get_words_for_category(category))
 		return [word for list in words for word in list]
 
+
+def create_dictionary_from_file(file):
+
+    first_line = file.readline()
+    languages  = split(first_line[1:].strip(), ',')
+    d          = Dictionary(languages)
+
+    category = 'CATEGORY_MISSING'
+
+    for line in file:
+
+        if line.isspace():
+            continue
+
+        if line[0] == IDENTIFIER_CATEGORY:
+            category = line[1:].strip()
+            d.add_category(category)
+        else:
+            list = [split(lang, ',') for lang in split(line, DELIMITER_NICE)]
+            w = Word(list)
+            w.add_category(category)
+            d.add_word(w)
+
+    return d

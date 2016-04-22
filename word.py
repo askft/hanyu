@@ -4,8 +4,7 @@
 from util import *
 
 class Word:
-	"""A Word is a collection of synonyms in different languages.
-	"""
+	"""A Word is a collection of synonyms in different languages."""
 
 	def __init__(self, list):
 		self.categories = []
@@ -24,4 +23,3 @@ class Word:
 		outer = ' | '.join(inner)
 		cats = ', '.join(self.categories)
 		return '< Word: { ' + outer + ' } ( ' + cats + ' ) >'
-	

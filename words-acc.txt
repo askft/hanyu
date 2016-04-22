@@ -267,7 +267,7 @@ difficult, hard		- nán				- 难
 easy, simple		- jiǎndān			- 简单
 foreign			- guówài			- 国外
 hot			- rè				- 热
-satisfied		- mǎnyì			- 满意 
+satisfied		- mǎnyì			- 满意
 white			- bái				- 白
 
 
@@ -366,4 +366,3 @@ I do not understand	- wǒ bù dǒng			- 我不懂
 I did not understand	- wǒ méi tīngdǒng		- 我没听懂
 please say it again	- qǐng zài shuō yī biàn	- 请再说一遍
 you didn't give me the change - méi zhǎo qián	- 没找钱
-

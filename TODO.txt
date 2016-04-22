@@ -1,9 +1,8 @@
 
-	TODO
+# TODO
 
 * http://vim.wikia.com/wiki/Converting_tabs_to_spaces
-
-* Add HTML output
+  Note: this can be easily done in the Atom editor.
 
 * Add a timer
 
@@ -11,6 +10,20 @@
 
 * If a word contains a dash character ('-') the split will fail. Use another
   delimiter, perhaps?
+
+* Another structure for dictionaries? Maybe something such as:
+```
+d = {
+    'categories': {
+        'family': [['brother', 'didi', '弟弟'],
+                   ['sister', 'meimei', '妹妹']],
+        'pronouns': []
+    },
+    'languages': ['en', 'py', 'cn']
+}
+```
+
+* [DONE] Add HTML output
 
 * [DONE] Show category for each word in the practice program
 
@@ -20,4 +33,3 @@
   consistent!
 
 * [DONE] Add support for categories
-

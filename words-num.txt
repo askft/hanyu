@@ -267,7 +267,7 @@ difficult, hard		- na2n				- 难
 easy, simple		- jia3nda1n			- 简单
 foreign			- guo2wa4i			- 国外
 hot			- re4				- 热
-satisfied		- ma3nyi4			- 满意 
+satisfied		- ma3nyi4			- 满意
 white			- ba2i				- 白
 
 
@@ -366,4 +366,3 @@ I do not understand	- wo3 bu4 do3ng			- 我不懂
 I did not understand	- wo3 me2i ti1ngdo3ng		- 我没听懂
 please say it again	- qi3ng za4i shuo1 yi1 bia4n	- 请再说一遍
 you didn't give me the change - me2i zha3o qia2n	- 没找钱
-
