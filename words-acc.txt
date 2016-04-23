@@ -157,7 +157,7 @@ Chinese cuisine		- Zhōngguócài		- 中国菜
 coffee			- kāfēi			- 咖啡
 french fries		- shǔtiáo			- 薯条
 food, rice		- fàn				- 饭
-juice			- guǒzh1			- 果汁
+juice			- guǒzhī			- 果汁
 milk			- niúnǎi			- 牛奶
 tea			- chá				- 茶
 water			- shuǐ				- 水
@@ -366,3 +366,4 @@ I do not understand	- wǒ bù dǒng			- 我不懂
 I did not understand	- wǒ méi tīngdǒng		- 我没听懂
 please say it again	- qǐng zài shuō yī biàn	- 请再说一遍
 you didn't give me the change - méi zhǎo qián	- 没找钱
+
