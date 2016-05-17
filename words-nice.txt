@@ -170,6 +170,7 @@ very | hěn | 很
 extremely | fēicháng | 非常
 # Verbs
 be | shì | 是
+be sure | quèdìng | 确定
 buy | mǎi | 买
 do, make | zuò | 做
 drink | hē | 喝

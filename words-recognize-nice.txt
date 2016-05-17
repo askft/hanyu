@@ -1,0 +1,47 @@
+! English, Pīnyīn, 汉语
+# Words
+snacks / snack bar | xiǎochī | 小吃
+book | dìng | 订
+hotel | jiǔdiàn | 酒店
+restaurant | fàndiàn | 饭店
+hotel | bīnguǎn | 宾馆
+room | fángjiān | 房间
+washroom | xǐshǒujiān | 洗手间
+toilet | cèsuǒ | 厕所
+bathroom | wèishēngjiān | 卫生间
+sù | vegetarian | 素
+meat | ròu | 肉
+dish/vegetable | cài | 菜
+spicy | là | 辣
+square | guǎngchǎng | 广场
+airport | fēijīchǎng | （飞）机场
+train station | huǒchēzhàn | 火车站
+bus stop | qìchēzhàn | 汽车站
+ticket | piào | 票
+airplane ticket | fēijīpiào | （飞）机票
+train ticket | huǒchēpiào | 火车票
+bus ticket | qìchēpiào | 汽车票
+booking hall | shòupiàotīng | 售票厅
+entrance | rùkǒu | 入口
+exit | chūkǒu | 出口
+snap, break, fold | zhé | 折
+hygeine | wèishēng | 卫生
+paper | zhǐ | 纸
+hand | shǒu | 手
+cloth, tissue | jīn | 巾
+single | dān | 单
+double | shuāng | 双
+between | jiān | 间
+bed | chuáng | 床
+clothes | yīfu | 衣服
+to wash | xǐ | 洗
+shop | diàn | 店
+machine | jī | 机
+powder | fěng | 粉
+liquid | yè | 液
+shower | yù | 浴
+baggage, luggage | xíngli | 行李
+plastic | sùliào | 塑料
+bag | dài | 袋
+long | cháng | 长
+short | duǎn | 短

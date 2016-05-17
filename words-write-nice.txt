@@ -1,0 +1,142 @@
+! English, Pinyin, 中文
+# Lesson 7
+noon | zhōngwǔ | 中午
+to eat | chī | 吃
+meal | fàn | 饭
+dining hall | shítáng | 食堂
+rice | mǐ | 米
+to want | yào | 要
+(general classifier) | gè | 个
+bowl | wǎn | 碗
+hen, cock, chicken | jī | 鸡
+egg (general) | dàn | 蛋
+soup | tāng | 汤
+liquor | jiǔ | 酒
+these | zhèxiē | 这些
+some (classifier) | xiē | 些
+some, a few, a little | yìxiē | 一些
+those | nàxiē | 那些
+# Lesson 8
+to buy | mǎi | 买
+fruit | shuǐguǒ | 水果
+jin | jīn | 斤
+(modal particle) | le | 了
+(suggestion particle) | ba | 吧
+how much, how many | duōshao | 多少
+many, a lot of | duō | 多
+few, little, less | shǎo | 少
+also, in addition, still | hái | 还
+other | biéde | 别的
+how | zěnme | 怎么
+to sell | mài | 卖
+two | liǎng | 两
+altogether | yígòng | 一共
+to give | gěi | 给
+to give change | zhǎo | 找
+# Lesson 9
+afternoon | xìawǔ | 下午
+morning | shàngwǔ | 上午
+library | túshūguǎn | 图书馆
+want, wish | yào | 要
+hundred, 100 | bǎi | 百
+thousand, 1000 | qiān | 千
+ten thousand, 10000 | wàn | 万
+wait | děng | 等
+a while | yíhuì | 一会
+# Lesson 10
+office | bàngōngshì | 办公室
+office work | bàngōng | 办公
+look for | zhǎo | 找
+be located at, be located in, in, at | zài | 在
+home | jiā | 家
+(ne particle) | ne | 呢
+live | zhù | 住
+building | lóu | 楼
+door, gate | mén | 门
+room | fángjiān | 房间
+number | hào | 号
+know | zhīdào | 知道
+telephone | diànhuà | 电话
+electricity | diàn | 电
+words, speech | huà | 话
+telephone number | hàomǎ | 号码
+zero | líng | 零
+mobile phone | shǒujī | 手机
+hand | shǒu | 手
+# Lesson 11
+first | xiān | 先
+(yixiar) | yíxiàr | 一下儿
+(people classifier) | wèi | 位
+welcome, greet | huānyíng | 欢迎
+also, too, either | yě | 也
+we, us | wǒmen | 我们
+you | nǐmen | 你们
+they, them | tāmen | 他们
+all, both | dōu | 都
+and | hé | 和
+student | xuésheng | 学生
+do not matter, never to mind | méi shénme | 没什么
+# Lesson 12
+language | yǔyán | 语言
+university | dàxué | 大学
+how, what about | zěnmeyàng | 怎么样
+grammar | yǔfǎ | 语法
+listen | tīng | 听
+easy | róngyì | 容易
+read | dú | 读
+write | xiě | 写
+but | dànshì | 但是
+to, for, give | gěi | 给
+new | xīn | 新
+classmate, schoolmate | tóngxué | 同学
+roommate | tóngwū | 同屋
+# Lesson 13
+have not, not yet, did not | méi, méiyǒu | 没, 没有
+have, there be | yǒu | 有
+here | zhèr | 这儿
+heavy | zhòng | 重
+black | hēi | 黑
+red | hóng | 红
+light | qīng | 轻
+old, used | jiù | 旧
+medicine, drug | yào | 药
+tea leaves | cháyè | 茶叶
+inside | lǐ | 里
+(article classifier), (piece classifier) | jiàn | 件
+clothes | yīfu | 衣服
+(tool with handle classifier) | bǎ | 把
+water | shuǐ | 水
+piece, sheet, paper | zhāng | 张
+pen, pencil, writing brush | bǐ | 笔
+# Lesson 14
+manager | jīnglǐ | 经历
+(for) a long time | hǎojiǔ | 好久
+so so | mǎmahūhū | 马马虎虎
+recently, in the near future | zuìjìn | 最近
+just now, a short while ago | gāng | 刚
+term begins | kāi xué | 开学
+begin, open | kāi | 开
+a little, slightly | yǒudiǎnr, yǒuyìdiǎnr | 有点儿, 有一点儿
+(classifier) a little | diǎnr | 点儿
+or | háishi | 还是
+coffee | kāfēi | 咖啡
+cup | bēi | 杯
+vehicle | chē | 车
+bicycle | zìxíngchē | 自行车
+auto, car, bus | qìchē | 汽车
+taxi | chūzūchē | 出租车
+color | yánsè | 颜色
+blue | lán | 蓝
+# Lesson 15
+whole, all, wholly | quán | 全
+photo | zhàopiàn | 照片
+look at, watch, see, read | kàn | 看
+only, just, merely | zhǐ | 只
+do | zuò | 做
+doctor | dàifu | 大夫
+hospital | yīyuàn | 医院
+company | gōngsī | 公司
+shop | shāngdiàn | 商店
+small | xiǎo | 小
+about, approximately | dàgài | 大概
+more, over, odd | duō | 多

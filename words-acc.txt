@@ -279,7 +279,10 @@ extremely		- fēicháng			- 非常
 
 #	Verbs
 
+; https://resources.allsetlearning.com/chinese/grammar/Comparing_%22kending%22_%22queding%22_and_%É%80%9Cyiding%22
+
 be			- shì				- 是
+be sure			- quèdìng			- 确定
 buy			- mǎi				- 买
 do, make		- zuò				- 做
 drink			- hē				- 喝
