@@ -47,6 +47,11 @@ def main(input, output):
         d = create_dictionary_from_file(file)
 
     style = """
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
         div {
             max-width: 800px;
             background: #fafafa;
