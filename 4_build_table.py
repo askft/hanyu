@@ -16,7 +16,14 @@ def convert_to_html_table(d, style='', div_class=''):
         for word in d.get_words_for_category(category):
             s += '    <tr>\n'
             for w in word.list:
-                s += '      <td>' + ', '.join(w) + '</td>\n'
+
+                links = []
+                for synonym in w:
+                    links.append('<a href="https://en.wiktionary.org/wiki/' +
+                                 synonym.replace(' ', '_') + '">' + synonym +
+                                 '</a>')
+
+                s += '      <td>' + ', '.join(links) + '</td>\n'
             s += '    </tr>\n'
         s += '  </table>\n'
         s += '</div>\n\n'

@@ -1,0 +1,198 @@
+
+! English, Pinyin, 中文
+
+
+# Verbs
+
+be located at, be located in, in, at - zài - 在
+have, there be - yǒu - 有
+want, intend - yào - 要
+live - zhù - 住
+not have, not yet, did not - méi, méiyǒu - 没, 没有
+know - zhīdào - 知道
+listen - tīng - 听
+look at, watch, see, read - kàn - 看
+read - dú - 读
+write - xiě - 写
+do - zuò - 做
+buy - mǎi - 买
+sell - mài - 卖
+give change - zhǎo - 找
+look for - zhǎo - 找
+begin, open - kāi - 开
+wait - děng - 等
+welcome, greet - huānyíng - 欢迎
+
+
+# Conjunctions
+
+also, too, either - yě - 也
+also, in addition, still - hái - 还
+and - hé - 和
+but - dànshì, kěshì - 但是, 可是
+how - zěnme - 怎么
+how, what about - zěnmeyàng - 怎么样
+or - háishì - 还是
+to, for, give - gěi - 给
+
+
+# Particles
+
+(suggestion particle) - ba - 吧
+(ne particle) - ne - 呢
+(modal particle) - le - 了
+
+
+# Classifiers
+
+(general classifier) - gè - 个
+piece, sheet, paper - zhāng - 张
+some (classifier) - xiē - 些
+(people classifier) - wèi - 位
+(article classifier), (piece classifier) - jiàn - 件
+(tool with handle classifier) - bǎ - 把
+
+
+# Time
+
+first - xiān - 先
+a while - yíhuì - 一会
+recently, in the near future - zuìjìn - 最近
+just now, a short while ago - gāng - 刚
+morning - shàngwǔ - 上午
+afternoon - xìawǔ - 下午
+noon - zhōngwǔ - 中午
+
+
+# Uncategorized
+
+do not matter, never to mind - méi shénme - 没什么
+a little, slightly - yǒudiǎnr, yǒuyìdiǎnr - 有点儿, 有一点儿
+(yixiar) - yíxiàr - 一下儿
+some, a few, a little - yìxiē - 一些
+these - zhèxiē - 这些
+those - nàxiē - 那些
+other - biéde - 别的
+all, both - dōu - 都
+whole, all, wholly - quán - 全
+
+here - zhèr - 这儿
+there - nàr - 那儿
+where - nǎr - 哪儿
+inside - lǐ - 里
+on, upon - shàng - 上
+under, below - xià - 下
+
+only, just, merely - zhǐ - 只
+about, approximately - dàgài - 大概
+
+many, a lot of, more, over, odd - duō - 多
+few, little, less - shǎo - 少
+how much, how many - duōshǎo - 多少
+altogether - yígòng - 一共
+
+color - yánsè - 颜色
+blue - lán - 蓝
+black - hēi - 黑
+red - hóng - 红
+
+(for) a long time - hǎojiǔ - 好久
+so so - mǎmahūhū - 马马虎虎
+term begins - kāi xué - 开学
+
+
+# Food and drink
+
+to eat - chī - 吃
+meal - fàn - 饭
+rice - mǐ - 米
+
+water - shuǐ - 水
+coffee - kāfēi - 咖啡
+
+cup - bēi - 杯
+bowl - wǎn - 碗
+jin - jīn - 斤
+
+dining hall - shítáng - 食堂
+hen, cock, chicken - jī - 鸡
+egg (general) - dàn - 蛋
+soup - tāng - 汤
+liquor - jiǔ - 酒
+fruit - shuǐguǒ - 水果
+
+
+# Numbers
+
+zero - líng - 零
+two - liǎng - 两
+hundred, 100 - bǎi - 百
+thousand, 1000 - qiān - 千
+ten thousand, 10000 - wàn - 万
+
+
+# Adjectives
+
+small - xiǎo - 小
+big - dà - 大
+new - xīn - 新
+old, used - jiù - 旧
+easy - róngyì - 容易
+hard, difficult - nán - 难
+heavy - zhòng - 重
+light - qīng - 轻
+
+
+# School and language
+
+language - yǔyán - 语言
+grammar - yǔfǎ - 语法
+words, speech - huà - 话
+
+classmate, schoolmate - tóngxué - 同学
+roommate - tóngwū - 同屋
+
+
+# Transport
+
+vehicle - chē - 车
+bicycle - zìxíngchē - 自行车
+auto, car, bus - qìchē - 汽车
+taxi - chūzūchē - 出租车
+
+
+# Occupations
+
+doctor - dàifu - 大夫
+manager - jīnglǐ - 经理
+student - xuésheng - 学生
+
+
+# Places
+
+home - jiā - 家
+university - dàxué - 大学
+company - gōngsī - 公司
+building - lóu - 楼
+library - túshūguǎn - 图书馆
+office - bàngōngshì - 办公室
+office work - bàngōng - 办公
+hospital - yīyuàn - 医院
+shop - shāngdiàn - 商店
+
+
+# Other nouns
+
+hand - shǒu - 手
+electricity - diàn - 电
+number - hào - 号
+telephone - diànhuà - 电话
+telephone number - hàomǎ - 号码
+mobile phone - shǒujī - 手机
+door, gate - mén - 门
+room - fángjiān - 房间
+medicine, drug - yào - 药
+tea leaves - cháyè - 茶叶
+clothes - yīfu - 衣服
+pen, pencil, writing brush - bǐ - 笔
+photo - zhàopiàn - 照片
