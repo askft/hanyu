@@ -1,9 +1,9 @@
 
-;	         ._________________________.
-;	..__.--¨¨|                         |¨¨--.__..
-;	|        | A list of Chinese words |        |
-;	|        |   by Alexander Skafte   |        |
-;	'.__.--¨¨|_________________________|¨¨--.__.'
+;             ._________________________.
+;    ..__.--¨¨|                         |¨¨--.__..
+;    |        | A list of Chinese words |        |
+;    |        |   by Alexander Skafte   |        |
+;    '.__.--¨¨|_________________________|¨¨--.__.'
 ;
 ;
 ; Author:   Alexander Skafte
@@ -16,357 +16,547 @@
 ; [f] = female
 
 ; TODO
-;	Add yao, xiang, hui etc
-;	west, east, north, south   (ern)
-;	yǒudiǎnr, yīdiǎnr
-;	gongjin, jin
+;    Add yao, xiang, hui etc
+;    west, east, north, south   (ern)
+;    yǒudiǎnr, yīdiǎnr
+;    gongjin, jin
+
+;   https://en.wiktionary.org/wiki/Appendix:Mandarin_Swadesh_list
 
 
 ! English, Pīnyīn, 汉语
 
-#	Pronouns
+#    Pronouns
 
-I, me			- wǒ				- 我
-you			- nǐ				- 你
-You			- nín				- 您
-he, him			- tā [m]			- 他
-she, her		- tā [f]			- 她
-we, us			- wǒmen			- 我们
-you [p]			- nǐmen			- 你们
-they [m], them [m]	- tāmen [m]			- 他们
-they [f], them [f]	- tāmen [f]			- 她们
-
-
-#	Persons
-
-friend			- péngyou			- 朋友
-male			- nán				- 男
-female			- nǚ				- 女
-waiter, waitress	- fúwùyuán			- 服务员
-
-#	Family
-
-father			- bàba				- 爸爸
-mother			- māma				- 妈妈
-siblings		- xiōngdijiěmèi		- 兄弟姐妹
-older brother		- gēge				- 哥哥
-older sister		- jiějie			- 姐姐
-younger brother		- dìdi				- 弟弟
-younger sister		- mèimei			- 妹妹
-father's mother		- nǎinai			- 奶奶
-mother's mother		- lǎolao, wàipó		- 姥姥, 外婆
-father's father		- yéye				- 爷爷
-mother's father		- lǎoye, wàigōng		- 姥爷, 外公
+I, me                   - wǒ               - 我
+you                     - nǐ               - 你
+You                     - nín              - 您
+he, him                 - tā [m]           - 他
+she, her                - tā [f]           - 她
+we, us                  - wǒmen            - 我们
+you [p]                 - nǐmen            - 你们
+they [m], them [m]      - tāmen [m]        - 他们
+they [f], them [f]      - tāmen [f]        - 她们
 
 
-#	Occupations
+#    Persons
 
-student			- xuéshēng			- 学生
-teacher			- lǎoshī			- 老师
-doctor			- yīshēng			- 医生
-businessman		- shāngrén			- 商人
-engineer		- gōngchéngshī		- 工程师
+friend                  - péngyou          - 朋友
+male                    - nán              - 男
+female                  - nǚ               - 女
+someone                 - yǒurén          - 有人
 
+#    Family
 
-#	Numbers and counting
-
-0			- líng				- 零
-1			- yī				- 一
-2			- èr				- 二
-3			- sān				- 三
-4			- sì				- 四
-5			- wǔ				- 五
-6			- liù				- 六
-7			- qī				- 七
-8			- bā				- 八
-9			- jiǔ				- 九
-10			- shí				- 十
-100			- bǎi				- 百
-1000			- qiān				- 千
-10000			- wàn				- 万
+father                  - bàba             - 爸爸
+mother                  - māma             - 妈妈
+siblings                - xiōngdijiěmèi  - 兄弟姐妹
+older brother           - gēge             - 哥哥
+older sister            - jiějie           - 姐姐
+younger brother         - dìdi             - 弟弟
+younger sister          - mèimei           - 妹妹
+father's mother         - nǎinai           - 奶奶
+mother's mother         - lǎolao, wàipó  - 姥姥, 外婆
+father's father         - yéye             - 爷爷
+mother's father         - lǎoye, wàigōng - 姥爷, 外公
 
 
-; 1x			-    shi,    shiyi,    shier,    shisan, ...
-; 2x			-  ershi,  ershiyi,  ershier,  ershisan, ...
-; 3x			- sanshi, sanshiyi, sanshier, sanshisan, ...
-; ?x			-   ?shi,   ?shiyo,   ?shier,   ?shisan, ...
+#    Occupations
 
-; [x]00			- [x]bai	: {   100: yibai,    200: erbai,  ... }
-; [x]000		- [x]qian	: {  1000: yiqian,  2000: erqian, ... }
-; [x]0000		- [x]wan	: { 10000: yiwan,  20000: erwan,  ... }
+student                 - xuéshēng        - 学生
+teacher                 - lǎoshī          - 老师
+doctor                  - yīshēng, dàifu - 医生, 大夫
+businessman             - shāngrén        - 商人
+manager                 - jīnglǐ          - 经理
+engineer                - gōngchéngshī   - 工程师
+waiter, waitress        - fúwùyuán       - 服务员
+
+
+#    Numbers and counting
+
+0, zero                 - líng             - 零
+1, one                  - yī               - 一
+2, two                  - èr, liǎng       - 二, 两
+3, three                - sān              - 三
+4, four                 - sì               - 四
+5, five                 - wǔ               - 五
+6, six                  - liù              - 六
+7, seven                - qī               - 七
+8, eight                - bā               - 八
+9, nine                 - jiǔ              - 九
+10, ten                 - shí              - 十
+100, hundred            - bǎi              - 百
+1000, thousand          - qiān             - 千
+10000, ten thousand     - wàn              - 万
+
+
+; 1x            -    shi,    shiyi,    shier,    shisan, ...
+; 2x            -  ershi,  ershiyi,  ershier,  ershisan, ...
+; 3x            - sanshi, sanshiyi, sanshier, sanshisan, ...
+; ?x            -   ?shi,   ?shiyo,   ?shier,   ?shisan, ...
+
+; [x]00            - [x]bai    : {   100: yibai,    200: erbai,  ... }
+; [x]000        - [x]qian    : {  1000: yiqian,  2000: erqian, ... }
+; [x]0000        - [x]wan    : { 10000: yiwan,  20000: erwan,  ... }
 
 ; yi -> yao (when in a series of numbers)
 ; TODO: sometimes ling is added in number (like 1001). Look up when.
 
 
-#	Time
+#    Time
 
-now			- xiànzài			- 现在
-before			- yǐqián			- 以前
-after			- yǐhòu			- 以后
+now                     - xiànzài         - 现在
+before                  - yǐqián          - 以前
+after                   - yǐhòu           - 以后
+first                   - xiān             - 先
+a while                 - yíhuì           - 一会
+just, just now          - gāng             - 刚
+(for) a long time       - hǎojiǔ          - 好久
 
-time, period, moment	- shíhòu			- 时候
+time, period, moment    - shíhòu          - 时候
 
-this (day/year)		- jīn				- 今
-this (week)		- běn				- 本
-recently		- zuìjìn			- 最近
+this (day/year)         - jīn              - 今
+this (week)             - běn              - 本
+recently                - zuìjìn          - 最近
+sometimes               - yǒu shíhou      - 有时候
+usually                 - yībān           - 一般
 
-early, morning		- zǎo				- 早
-noon, midday		- wǔ				- 午
-late, evening, night	- wǎn				- 晚
-day			- tiān				- 天
-yesterday		- zuótiān			- 昨天
-today			- jīntiān			- 今天
-tomorrow		- míngtiān			- 明天
-tonight			- jīnwǎn			- 今晚
+morning                 - shàngwǔ         - 上午
+noon                    - zhōngwǔ         - 中午
+afternoon               - xiàwǔ           - 下午
 
-month			- yuè				- 月
-date, day		- hào				- 号
+early, morning          - zǎo              - 早
+noon, midday            - wǔ               - 午
+late, evening, night    - wǎn              - 晚
+day                     - tiān             - 天
+yesterday               - zuótiān         - 昨天
+today                   - jīntiān         - 今天
+tomorrow                - míngtiān        - 明天
+tonight                 - jīnwǎn          - 今晚
 
-year			- nián				- 年
-last year		- qùnián			- 去年
-this year		- jīnnián			- 今年
-next year		- míngnián			- 明年
+month                   - yuè              - 月
+date, day               - hào              - 号
 
-week			- xīngqī, zhōu		- 星期, 周
-Monday			- xīngqīyī			- 星期一
-Tuesday			- xīngqīèr			- 星期二
-Wednesday		- xīngqīsān			- 星期三
-Thursday		- xīngqīsì			- 星期四
-Friday			- xīngqīwǔ			- 星期五
-Saturday		- xīngqīliù			- 星期六
-Sunday			- xīngqītiān, xīngqīrì	- 星期天
+year                    - nián             - 年
+last year               - qùnián          - 去年
+this year               - jīnnián         - 今年
+next year               - míngnián        - 明年
 
-
-#	Clock
-
-hour			- diǎn				- 点
-minute			- fēn				- 分
-second			- miǎo				- 秒
-quarter			- kè				- 刻
-half			- bàn				- 半
-short of		- chà				- 差
-two o'clock		- liǎngdiǎn			- 亮点
-
-
-#	Food and beverage
-
-alcohol, liquor		- jiǔ				- 酒
-beer			- píjiǔ			- 啤酒
-Chinese cuisine		- Zhōngguócài		- 中国菜
-coffee			- kāfēi			- 咖啡
-french fries		- shǔtiáo			- 薯条
-food, rice		- fàn				- 饭
-juice			- guǒzhī			- 果汁
-milk			- niúnǎi			- 牛奶
-tea			- chá				- 茶
-water			- shuǐ				- 水
+week                    - xīngqī, zhōu   - 星期, 周
+Monday                  - xīngqīyī       - 星期一
+Tuesday                 - xīngqīèr       - 星期二
+Wednesday               - xīngqīsān      - 星期三
+Thursday                - xīngqīsì       - 星期四
+Friday                  - xīngqīwǔ       - 星期五
+Saturday                - xīngqīliù      - 星期六
+Sunday                  - xīngqītiān, xīngqīrì    - 星期天
 
 
+#    Clock
 
-#	Question words
+hour                    - diǎn             - 点
+minute                  - fēn              - 分
+second                  - miǎo             - 秒
+quarter                 - kè               - 刻
+half                    - bàn              - 半
+short of                - chà              - 差
+two o'clock             - liǎngdiǎn       - 亮点
+
+hour (duration)         - xiǎoshí         - 小时
+minute (duration)       - fēnzhōng        - 分钟
+
+
+#    Food and beverage
+
+alcohol, liquor         - jiǔ              - 酒
+beer                    - píjiǔ           - 啤酒
+Chinese cuisine         - Zhōngguócài    - 中国菜
+coffee                  - kāfēi           - 咖啡
+french fries            - shǔtiáo         - 薯条
+food, rice              - fàn              - 饭
+juice                   - guǒzhī          - 果汁
+milk                    - niúnǎi          - 牛奶
+tea                     - chá              - 茶
+water                   - shuǐ             - 水
+
+
+
+#    Question words
 
 ; http://www.dummies.com/how-to/content/how-to-ask-questions-in-chinese.html
 
-how			- zěnmeyàng			- 怎么样
-what			- shénme			- 什么
-who			- shuí, shéi			- 谁
-which			- nǎ				- 哪
-where			- nǎr				- 哪儿
-why			- wèishénme			- 为什么
+how                     - zěnme            - 怎么
+how, how about          - zěnmeyàng       - 怎么样
+what                    - shénme           - 什么
+who                     - shuí, shéi      - 谁
+which                   - nǎ               - 哪
+where                   - nǎr              - 哪儿
+why                     - wèishénme       - 为什么
 
-how many, what, several	- jǐ				- 几
-how many, how much	- duōshǎo			- 多少
-
-
-#	Places
-
-bookstore		- shūdiàn			- 书店
-café			- kāfēidiàn			- 咖啡店
-library			- túshūguǎn			- 图书馆
-park			- gōngyuán			- 公园
-restaurant		- fàndiàn			- 饭店
-school			- xuéxiào			- 学校
-supermarket		- chāoshì			- 超市
+how many, what, several - jǐ               - 几
+how many, how much      - duōshǎo         - 多少
 
 
+#    Places
 
-#	Nationality
-
-country, nation		- guó				- 国
-foreign language	- wàiyǔ			- 外语
-
-China			- Zhōngguó			- 中国
-Chinese person		- Zhōngguórén		- 中国人
-Chinese language	- Hànyǔ			- 汉语
-
-Japan			- Rìběn			- 日本
-Japanese person		- Rìběnrén			- 日本人
-Japanese language	- Rìyǔ			- 日语
-
-Sweden			- Ruìdiǎn			- 瑞典
-Swedish person		- Ruìdiǎnrén			- 瑞典人
-Swedish language	- Ruìdiǎnyǔ			- 瑞典语
-
-
-#	Uncategorized
-
-and			- hé				- 和
-also, too, as well	- yě				- 也
-all, both, every, each	- dōu				- 都
-altogether, total	- yīgōng			- 一共
-
-correct, exactly	- duì				- 对
-yes			- shì				- 是
-no (past)		- méi				- 没
-no, not			- bù				- 不
-very, too, excessively	- tài				- 太
-
-that			- nà				- 那
-there			- nàr				- 那儿
-here			- zhèr, zhèlǐ		- 这儿, 这里
-this			- zhè				- 这
-
-some, few, several	- xiē				- 些
-
-years old		- suì				- 岁
-
-already			- yǐjīng			- 已经
+home                    - jiā              - 家
+bookstore               - shūdiàn         - 书店
+café                    - kāfēidiàn      - 咖啡店
+library                 - túshūguǎn      - 图书馆
+park                    - gōngyuán        - 公园
+restaurant              - fàndiàn         - 饭店
+school                  - xuéxiào         - 学校
+university              - dàxué           - 大学
+supermarket             - chāoshì         - 超市
+company                 - gōngsī          - 公司
+building                - lóu              - 楼
+library                 - túshūguǎn      - 图书馆
+office                  - bàngōngshì     - 办公室
+office work             - bàngōng         - 办公
+hospital                - yīyuàn          - 医院
+shop                    - shāngdiàn       - 商店
 
 
+#    Nationality
 
-#	Classifiers, measure words
+country, nation         - guó              - 国
+foreign language        - wàiyǔ           - 外语
+
+China                   - Zhōngguó        - 中国
+Chinese person          - Zhōngguórén    - 中国人
+Chinese language        - Hànyǔ           - 汉语
+
+Japan                   - Rìběn           - 日本
+Japanese person         - Rìběnrén       - 日本人
+Japanese language       - Rìyǔ            - 日语
+
+Sweden                  - Ruìdiǎn         - 瑞典
+Swedish person          - Ruìdiǎnrén     - 瑞典人
+Swedish language        - Ruìdiǎnyǔ      - 瑞典语
+
+
+#    Uncategorized
+
+and                     - hé               - 和
+also, too, as well      - yě               - 也
+also, still             - hái              - 还
+altogether, total       - yīgōng          - 一共
+
+a little, slightly      - yǒudiǎnr, yǒuyìdiǎnr - 有点儿, 有一点儿
+a moment                - yíxiàr          - 一下儿
+
+all, both, every        - dōu              - 都
+not both, not all       - bù dōu          - 不都
+none, neither           - dōu bù          - 都不
+
+color                   - yánsè           - 颜色
+red                     - hóng             - 红
+green                   - lǜ               - 绿
+yellow                  - huáng            - 黄
+blue                    - lán              - 蓝
+black                   - hēi              - 黑
+white                   - bái              - 白
+
+so so                   - mǎmahūhū       - 马马虎虎
+
+but                     - kěshì, dānshì - 可是, 单是
+or                      - háishì          - 还是
+
+only, just, merely      - zhǐ              - 只
+about, approximately    - dàgài           - 大概
+
+correct, exactly        - duì              - 对
+yes                     - shì              - 是
+no (past)               - méi              - 没
+no, not                 - bù               - 不
+too, excessively        - tài              - 太
+
+that                    - nà               - 那
+there                   - nàr              - 那儿
+here                    - zhèr, zhèlǐ    - 这儿, 这里
+this                    - zhè              - 这
+
+these                   - zhèxiē          - 这些
+those                   - nàxiē           - 那些
+other                   - biéde            - 别的
+whole, all, wholly      - quán             - 全
+
+some (classifier)       - xiē              - 些
+some, a few, a little   - yīxiē           - 一些
+
+years old               - suì              - 岁
+
+already                 - yǐjīng          - 已经
+perfect, just right     - zhènghǎo        - 正好
+
+to, for, give           - gěi              - 给
+
+please                  - qǐng             - 请
+
+
+#    Classifiers, measure words
 
 ; https://en.wikipedia.org/wiki/List_of_Chinese_classifiers
 
-(general)		- gè				- 个
-(paper)			- zhāng			- 张
-(family members)	- kǒu				- 口
+(general)               - gè               - 个
+(paper)                 - zhāng            - 张
+(family members)        - kǒu              - 口
+(people classifier)     - wèi              - 位
+piece, sheet, paper     - zhāng            - 张
+some (classifier)       - xiē              - 些
+
+(article classifier), (piece classifier)    - jiàn - 件
+(tool with handle classifier)               - bǎ   - 把
 
 
-#	Prepositions
+#   Particles
+
+(suggestion particle)   - ba                - 吧
+(ne particle)           - ne                - 呢
+(modal particle)        - le                - 了
+
+
+#    Prepositions
 
 ; There's more English definitions than the below; please see
 ; https://translate.google.com/#zh-CN/en/CHARACTER
 
-at, in, by		- zài				- 在
-on, upon		- shàng			- 上
-below, under		- xià				- 下
-in, inside, inner	- lǐ				- 里
-out, outside, outer	- wài				- 外
-beside			- pángbiān			- 旁边
-right			- yòubiān			- 右边
-left			- zuǒbiān			- 左边
-
-#	Adjectives
-
-big			- dà				- 大
-busy			- máng				- 忙
-cold			- lěng				- 冷
-difficult, hard		- nán				- 难
-easy, simple		- jiǎndān			- 简单
-foreign			- guówài			- 国外
-hot			- rè				- 热
-satisfied		- mǎnyì			- 满意
-white			- bái				- 白
+at, in, by              - zài              - 在
+after                   - yǐhòu           - 以后
+before                  - yǐqián          - 以前
+below, under            - xià              - 下
+on, upon                - shàng            - 上
+in, inside, inner       - lǐ               - 里
+out, outside, outer     - wài              - 外
+beside                  - pángbiān        - 旁边
+right                   - yòubiān         - 右边
+left                    - zuǒbiān         - 左边
 
 
-#	Adverbs
+#    Adjectives
 
-very			- hěn				- 很
-extremely		- fēicháng			- 非常
+good                    - hǎo              - 好
+bad                     - huài             - 坏
+small                   - xiǎo             - 小
+big                     - dà               - 大
+new                     - xīn              - 新
+old, used               - jiù              - 旧
+busy                    - máng             - 忙
+cold                    - lěng             - 冷
+difficult, hard         - nán              - 难
+easy                    - róngyì          - 容易
+simple                  - jiǎndān         - 简单
+heavy                   - zhòng            - 重
+light                   - qīng             - 轻
+foreign                 - guówài          - 国外
+hot                     - rè               - 热
+interesting             - yǒu yìsi        - 有意思
+satisfied               - mǎnyì           - 满意
+blind                   - máng             - 盲
+wet                     - shī              - 湿
+dry                     - gān              - 干
+near, close by          - jìn              - 近
+far                     - yuǎn             - 远
+left                    - zuǒ              - 左
+right                   - yòu              - 右
 
 
-#	Verbs
+#    Adverbs
+
+very                    - hěn              - 很
+extremely               - fēicháng        - 非常
+
+
+#    Verbs
 
 ; https://resources.allsetlearning.com/chinese/grammar/Comparing_%22kending%22_%22queding%22_and_%É%80%9Cyiding%22
 
-be			- shì				- 是
-be sure			- quèdìng			- 确定
-buy			- mǎi				- 买
-do, make		- zuò				- 做
-drink			- hē				- 喝
-eat			- chī				- 吃
-enter, come in		- jìn				- 进
-feel, sense, think	- juéde			- 觉得
-go			- qù				- 去
-have, exist		- yǒu				- 有
-know			- zhīdào			- 知道
-like			- xǐhuān			- 喜欢
-listen			- tīng				- 听
-live			- zhù				- 住
-play (general)		- wánr				- 玩儿
-play, kick		- tī				- 踢
-pluck			- tán, dàn			- 弹
-put			- fàng				- 放
-read			- kàn, dú			- 看, 读
-return			- huí				- 回
-say, talk, speak	- shuō				- 说
-see, meet		- jiàn				- 见
-sit			- zuò				- 坐
-study			- xué				- 学
-throw			- rēng				- 扔
-work			- gōngzuò			- 工作
-want			- yào				- 要
+be                      - shì              - 是
+be sure                 - quèdìng         - 确定
+buy                     - mǎi              - 买
+close                   - guān             - 关
+die                     - sǐ               - 死
+do, make                - zuò              - 做
+drink                   - hē               - 喝
+eat                     - chī              - 吃
+enter, come in          - jìn              - 进
+feel, sense, think      - juéde            - 觉得
+fly                     - fēi              - 飞
+give change             - zhǎo             - 找
+go                      - qù               - 去
+have, exist             - yǒu              - 有
+help                    - bāng             - 帮
+hit                     - dǎ               - 打
+hold                    - wò               - 握
+kill                    - shā              - 杀
+know                    - zhīdào          - 知道
+laugh                   - xiào             - 笑
+lie, lie down           - tǎng             - 躺
+like                    - xǐhuān          - 喜欢
+listen                  - tīng             - 听
+live                    - zhù              - 住
+live, life              - huó              - 活
+look for                - zhǎo             - 找
+not have, did not       - méi, méiyǒu    - 没, 没有
+open                    - kāi              - 开
+pay                     - fù               - 付
+play (general)          - wánr             - 玩儿
+play, kick              - tī               - 踢
+pluck                   - tán, dàn        - 弹
+pull                    - lā               - 拉
+push                    - tuī              - 推
+put                     - fàng             - 放
+read, look at           - kàn              - 看
+read                    - dú               - 读
+return                  - huí              - 回
+say, talk, speak        - shuō             - 说
+see, meet               - jiàn             - 见
+sell                    - mài              - 卖
+send                    - fā               - 发
+sing                    - chàng            - 唱
+sit                     - zuò              - 坐
+sleep                   - shuìjiào        - 睡觉
+smell                   - wén              - 闻
+stand                   - zhàn             - 站
+study                   - xué              - 学
+swim                    - yóuyǒng         - 游泳
+take, seize             - ná               - 拿
+take a picture          - pàizhào         - 拍照
+throw                   - rēng             - 扔
+turn                    - zhuǎn            - 转
+work                    - gōngzuò         - 工作
+wait                    - děng             - 等
+walk, leave             - zǒu              - 走
+want                    - yào              - 要
+wash                    - xǐ               - 洗
+welcome, greet          - huānyíng        - 欢迎
+write                   - xiě              - 写
+
+need, need to           - xūyào           - 需要
+have to                 - děi              - 得
+must                    - bìxū            - 必需
 
 
-#	Nouns
+#   Nouns
 
-baby			- bǎobae			- 宝宝
-body, health		- shēntǐ			- 身体
-book			- shū				- 书
-child, kid		- háizi			- 孩子
-computer		- diànnǎo			- 电脑
-computer science	- jìsuànjīkēxué		- 计算机科学
-horse			- mǎ				- 马
-mouth			- kǒu				- 口
-floor, ground		- dì				- 地
-flower			- huā				- 花
-guitar			- jítā			- 吉他
-sun			- rì				- 日
-please			- qǐng				- 请
-breakfast		- zǎofàn			- 早饭
-lunch			- wǔfàn			- 午饭
-dinner			- wǎnfàn			- 晚饭
+breakfast               - zǎofàn          - 早饭
+lunch                   - wǔfàn           - 午饭
+dinner                  - wǎnfàn          - 晚饭
+baby                    - bǎobae           - 宝宝
+blood                   - xuè              - 血
+body, health            - shēntǐ          - 身体
+book                    - shū              - 书
+child, kid              - háizi            - 孩子
+clothes                 - yīfu             - 衣服
+computer                - diànnǎo         - 电脑
+computer science        - jìsuànjīkēxué    - 计算机科学
+door, gate              - mén              - 门
+electricity             - diàn             - 电
+grass                   - cǎo              - 草
+guitar                  - jítā            - 吉他
+hand                    - shǒu             - 手
+horse                   - mǎ               - 马
+lake                    - hú               - 湖
+medicine, drug          - yào              - 药
+mobile phone            - shǒujī          - 手机
+mountain                - shān             - 山
+mouth                   - kǒu              - 口
+number                  - hào              - 号
+floor, ground           - dì               - 地
+flower                  - huā              - 花
+pen, pencil             - bǐ               - 笔
+photo                   - zhàopiàn        - 照片
+rain                    - yǔ               - 雨
+river                   - hé               - 河
+room                    - fángjiān        - 房间
+salt                    - yán              - 盐
+skin                    - pí               - 皮
+sea                     - hǎi              - 海
+sun                     - rì               - 日
+tea leaves              - cháyè           - 茶叶
+telephone               - diànhuà         - 电话
+telephone number        - hàomǎ           - 号码
 
 
-#	Food and drink
+#   Anatomy
 
-egg			- dàn				- 蛋
-bitter			- kǔ				- 苦
-fruit			- guǒ				- 果
-meat			- ròu				- 肉
-pepper			- jiāo				- 椒
-soup			- tāng				- 汤
-sour			- suān				- 酸
-spicy, hot		- là				- 辣
-sweet			- tián				- 甜
-salty			- xián				- 咸
+; https://quizlet.com/28495359/chinese-mandarin-anatomy-flash-cards/
 
-order			- diǎn				- 点
-pay for the food	- mǎi dān			- 买单
-oil			- yóu				- 油
+hair                    - tóufa            - 头发
+head                    - tóu              - 头
+ear                     - ěrduo            - 耳朵
+eye                     - yǎnjing          - 眼睛
+nose                    - bí               - 鼻
+mouth                   - zuǐ              - 嘴
+tooth                   - yáchǐ           - 牙齿
+tongue                  - shé, shétou     - 舌, 舌头
+finger                  - zhǐ              - 指
+fingernail              - zhǐjia           - 指甲
+foot                    - jiǎo             - 脚
+leg                     - tuǐ              - 腿
+knee                    - xīgài           - 膝盖
+hand                    - shǒu             - 手
+belly                   - dùzi             - 肚子
+neck                    - bózi             - 脖子
+back                    - bèi              - 背
+breast                  - xiōng            - 胸
 
 
-#	Common phrases
 
-hello			- nǐ hǎo			- 你好
-goodbye			- zàijiàn			- 再见
-how are you?		- nǐ hǎo ma?			- 你好吗？
-what about you?		- nǐ ne?			- 你呢？
-sorry			- duìbùqǐ			- 对不起
-it's all right		- méiguānxi			- 没关系
-thank you		- xièxie			- 谢谢
-you are welcome		- búkèqi			- 不客气
-happy weekend		- zhōumò kuàile		- 周末快乐
-you too			- nǐyěshì			- 你也是
-see you later		- huíjiàn			- 回见
-don't, do not		- bùyào, bié			- 不要, 别
-how much does it cost?	- duōshǎo qián?		- 多少钱？
-what time is it?	- jǐ diǎn le?			- 几点了
-what does it mean?	- shénme yìsi?		- 什么意思
-I do not understand	- wǒ bù dǒng			- 我不懂
-I did not understand	- wǒ méi tīngdǒng		- 我没听懂
-please say it again	- qǐng zài shuō yī biàn	- 请再说一遍
-you didn't give me the change - méi zhǎo qián	- 没找钱
+#   Food and drink
 
+dog                     - gǒu              - 狗
+egg                     - dàn              - 蛋
+bitter                  - kǔ               - 苦
+fish                    - yú               - 鱼
+fruit                   - guǒ              - 果
+meat                    - ròu              - 肉
+pepper                  - jiāo             - 椒
+soup                    - tāng             - 汤
+sour                    - suān             - 酸
+spicy, hot              - là               - 辣
+sweet                   - tián             - 甜
+salty                   - xián             - 咸
+water                   - shuǐ             - 水
+
+order                   - diǎn             - 点
+pay for the food        - mǎi dān         - 买单
+oil                     - yóu              - 油
+chicken, hen, cock      - jī               - 鸡
+egg (general)           - dàn              - 蛋
+liquor                  - jiǔ              - 酒
+
+cup                     - bēi              - 杯
+bowl                    - wǎn              - 碗
+
+
+#   Transport
+
+vehicle                 - chē              - 车
+bicycle                 - zìxíngchē      - 自行车
+auto, car, bus          - qìchē           - 汽车
+taxi                    - chūzūchē       - 出租车
+
+
+#    Common phrases
+
+hello                           - nǐ hǎo                      - 你好
+goodbye                         - zàijiàn                     - 再见
+how are you?                    - nǐ hǎo ma?                  - 你好吗？
+what about you?                 - nǐ ne?                       - 你呢？
+sorry                           - duìbùqǐ                    - 对不起
+it's all right                  - méiguānxi                   - 没关系
+thank you                       - xièxie                       - 谢谢
+you are welcome                 - búkèqi                      - 不客气
+happy weekend                   - zhōumò kuàile              - 周末快乐
+you too                         - nǐyěshì                    - 你也是
+see you later                   - huíjiàn                     - 回见
+don't, do not                   - bùyào, bié                 - 不要, 别
+how much does it cost?          - duōshǎo qián?              - 多少钱？
+what time is it?                - jǐ diǎn le?                 - 几点了
+what does it mean?              - shénme yìsi?                - 什么意思
+I do not understand             - wǒ bù dǒng                 - 我不懂
+I did not understand            - wǒ méi tīngdǒng           - 我没听懂
+please say it again             - qǐng zài shuō yī biàn    - 请再说一遍
+you didn't give me the change   - méi zhǎo qián              - 没找钱
+do not matter, never to mind    - méi shénme                  - 没什么
