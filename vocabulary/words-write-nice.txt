@@ -1,11 +1,54 @@
 ! English, Pinyin, 中文
+# Lesson 2
+busy | máng | 忙
+hard, difficult | nán | 难
+little sister | mèimei | 妹妹
+older sister | jiějie | 姐姐
+# Lesson 3
+English | yīngyǔ | 英语
+Korean | hánguóyǔ | 韩国语
+Japanese | rìyǔ | 日语
+right, correct, exactly | duì | 对
+tomorrow | míngtiān | 明天
+post office | yóujú | 邮局
+post, mail, send by mail | jì | 寄
+letter, mail | xìn | 信
+bank | yínháng | 银行
+draw, withdraw | qǔ | 取
+money | qián | 钱
+# Lesson 4
+yesterday | zuótiān | 昨天
+week | xīngqī | 星期
+school | xuéxiào | 学校
+sorry | duì bu qǐ | 对不起
+doesn't matter, don't mind, it's all right | méi guānxi | 没关系
+# Lesson 5
+teacher | laǒshī | 老师
+please | qǐng | 请
+enter, come in | jìan | 见
+sit | zuò | 坐
+tea | chá | 茶
+thank | xièxie | 谢谢
+you're welcome | bú kèqi | 不客气
+work | gōngzuò | 工作
+health, body | shēntǐ | 身体
+# Lesson 6
+ask, enquire | wèn | 问
+name | guìxìng | 贵姓
+call, be called | jiào | 叫
+name | míngzi | 名字
+study, learn | xuéxí | 学习
+pronounce, pronounciation | fāyīn | 发音
+who | shéi, shuí | 谁
+friend | péngyou | 朋友
 # Lesson 7
 noon | zhōngwǔ | 中午
-to eat | chī | 吃
+eat | chī | 吃
 meal | fàn | 饭
 dining hall | shítáng | 食堂
+mantou, steamed bun | mántou | 馒头
 rice | mǐ | 米
-to want | yào | 要
+want | yào | 要
 (general classifier) | gè | 个
 bowl | wǎn | 碗
 hen, cock, chicken | jī | 鸡
@@ -16,36 +59,49 @@ these | zhèxiē | 这些
 some (classifier) | xiē | 些
 some, a few, a little | yìxiē | 一些
 those | nàxiē | 那些
+dumpling | jiǎozi | 饺子
+baozi | bāozi | 包子
+noodle | miàntiáo | 面条
 # Lesson 8
-to buy | mǎi | 买
+buy | mǎi | 买
 fruit | shuǐguǒ | 水果
 jin | jīn | 斤
+kilogram | gōngjīn | 公斤
+expensive | guì | 贵
 (modal particle) | le | 了
 (suggestion particle) | ba | 吧
 how much, how many | duōshao | 多少
 many, a lot of | duō | 多
 few, little, less | shǎo | 少
+kuai | kuài | 块
+yuan | yuán | 元
+jiao | jiǎo | 角
+mao | máo | 毛
+fen | fēn | 分
 also, in addition, still | hái | 还
 other | biéde | 别的
 how | zěnme | 怎么
-to sell | mài | 卖
+sell | mài | 卖
 two | liǎng | 两
 altogether | yígòng | 一共
-to give | gěi | 给
-to give change | zhǎo | 找
+give | gěi | 给
+give change | zhǎo | 找
 # Lesson 9
 afternoon | xìawǔ | 下午
 morning | shàngwǔ | 上午
 library | túshūguǎn | 图书馆
-want, wish | yào | 要
+change, exchange | huàn | 换
 hundred, 100 | bǎi | 百
 thousand, 1000 | qiān | 千
 ten thousand, 10000 | wàn | 万
 wait | děng | 等
 a while | yíhuì | 一会
+mr, sir | xiānsheng | 先生
+count | shǔ | 数
 # Lesson 10
 office | bàngōngshì | 办公室
 office work | bàngōng | 办公
+employee, office worker | zhíyuán | 职员
 look for | zhǎo | 找
 be located at, be located in, in, at | zài | 在
 home | jiā | 家
@@ -76,10 +132,17 @@ all, both | dōu | 都
 and | hé | 和
 student | xuésheng | 学生
 do not matter, never to mind | méi shénme | 没什么
+introduce | jiěshào | 介绍
+people | wèi | 位
+professor | jiàoshòu | 教授
+president, principal | xiàozhǎng | 校长
+overseas | liú | 留
 # Lesson 12
 language | yǔyán | 语言
 university | dàxué | 大学
 how, what about | zěnmeyàng | 怎么样
+think, feel | juéde | 觉得
+relatively, comparatively | bǐjiào | 比较
 grammar | yǔfǎ | 语法
 listen | tīng | 听
 easy | róngyì | 容易
@@ -92,6 +155,7 @@ classmate, schoolmate | tóngxué | 同学
 roommate | tóngwū | 同屋
 # Lesson 13
 have not, not yet, did not | méi, méiyǒu | 没, 没有
+box, case, trunk | xiāngzi | 箱子
 have, there be | yǒu | 有
 here | zhèr | 这儿
 heavy | zhòng | 重
@@ -102,11 +166,18 @@ old, used | jiù | 旧
 medicine, drug | yào | 药
 tea leaves | cháyè | 茶叶
 inside | lǐ | 里
+daily necessities | rìyòngpǐn | 日用品
 (article classifier), (piece classifier) | jiàn | 件
 clothes | yīfu | 衣服
 (tool with handle classifier) | bǎ | 把
+umbrella | yǔsǎn | 雨伞
+rain | yǔ | 雨
+bottle | píng | 瓶
 water | shuǐ | 水
+(book classifier) | běn | 本
+dictionary | cídiǎn | 词典
 piece, sheet, paper | zhāng | 张
+(pen classifier) | zhī | 支
 pen, pencil, writing brush | bǐ | 笔
 # Lesson 14
 manager | jīnglǐ | 经理
@@ -125,6 +196,7 @@ vehicle | chē | 车
 bicycle | zìxíngchē | 自行车
 auto, car, bus | qìchē | 汽车
 taxi | chūzūchē | 出租车
+(vehicle classifier) | liàng | 辆
 color | yánsè | 颜色
 blue | lán | 蓝
 # Lesson 15
@@ -140,3 +212,4 @@ shop | shāngdiàn | 商店
 small | xiǎo | 小
 about, approximately | dàgài | 大概
 more, over, odd | duō | 多
+outside | wài | 外

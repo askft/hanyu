@@ -1,15 +1,72 @@
 
 ! English, Pinyin, 中文
 
+# Lesson 2
+
+busy - ma2ng - 忙
+hard, difficult - na2n - 难
+little sister - me4imei - 妹妹
+older sister - jie3jie - 姐姐
+
+
+# Lesson 3
+
+English - yi1ngyu3 - 英语
+Korean - ha2nguo2yu3 - 韩国语
+Japanese - ri4yu3 - 日语
+right, correct, exactly - dui4 - 对
+tomorrow - mi2ngtia1n - 明天
+post office - yo2uju2 - 邮局
+post, mail, send by mail - ji4 - 寄
+letter, mail - xi4n - 信
+bank - yi2nha2ng - 银行
+draw, withdraw - qu3 - 取
+money - qia2n - 钱
+
+
+# Lesson 4
+
+yesterday - zuo2tia1n - 昨天
+week - xi1ngqi1 - 星期
+school - xue2xia4o - 学校
+sorry - dui4 bu qi3 - 对不起
+doesn't matter, don't mind, it's all right - me2i gua1nxi - 没关系
+
+
+# Lesson 5
+
+teacher - lao3shi1 - 老师
+please - qi3ng - 请
+enter, come in - ji4an - 见
+sit - zuo4 - 坐
+tea - cha2 - 茶
+thank - xie4xie - 谢谢
+you're welcome - bu2 ke4qi - 不客气
+work - go1ngzuo4 - 工作
+health, body - she1nti3 - 身体
+
+
+# Lesson 6
+
+ask, enquire - we4n - 问
+name - gui4xi4ng - 贵姓
+call, be called - jia4o - 叫
+name - mi2ngzi - 名字
+study, learn - xue2xi2 - 学习
+pronounce, pronounciation - fa1yi1n - 发音
+who - she2i, shui2 - 谁
+friend - pe2ngyou - 朋友
+
 
 # Lesson 7
 
 noon - zho1ngwu3 - 中午
-to eat - chi1 - 吃
+eat - chi1 - 吃
 meal - fa4n - 饭
 dining hall - shi2ta2ng - 食堂
+mantou, steamed bun - ma2ntou - 馒头
 rice - mi3 - 米
-to want - ya4o - 要
+want - ya4o - 要
 (general classifier) - ge4 - 个
 bowl - wa3n - 碗
 hen, cock, chicken - ji1 - 鸡
@@ -20,26 +77,36 @@ these - zhe4xie1 - 这些
 some (classifier) - xie1 - 些
 some, a few, a little - yi4xie1 - 一些
 those - na4xie1 - 那些
+dumpling - jia3ozi - 饺子
+baozi - ba1ozi - 包子
+noodle - mia4ntia2o - 面条
 
 
 # Lesson 8
 
-to buy - ma3i - 买
+buy - ma3i - 买
 fruit - shui3guo3 - 水果
 jin - ji1n - 斤
+kilogram - go1ngji1n - 公斤
+expensive - gui4 - 贵
 (modal particle) - le - 了
 (suggestion particle) - ba - 吧
 how much, how many - duo1shao - 多少
 many, a lot of - duo1 - 多
 few, little, less - sha3o - 少
+kuai - kua4i - 块
+yuan - yua2n - 元
+jiao - jia3o - 角
+mao - ma2o - 毛
+fen - fe1n - 分
 also, in addition, still - ha2i - 还
 other - bie2de - 别的
 how - ze3nme - 怎么
-to sell - ma4i - 卖
+sell - ma4i - 卖
 two - lia3ng - 两
 altogether - yi2go4ng - 一共
-to give - ge3i - 给
-to give change - zha3o - 找
+give - ge3i - 给
+give change - zha3o - 找
 
 
 # Lesson 9
@@ -47,18 +114,21 @@ to give change - zha3o - 找
 afternoon - xi4awu3 - 下午
 morning - sha4ngwu3 - 上午
 library - tu2shu1gua3n - 图书馆
-want, wish - ya4o - 要
+change, exchange - hua4n - 换
 hundred, 100 - ba3i - 百
 thousand, 1000 - qia1n - 千
 ten thousand, 10000 - wa4n - 万
 wait - de3ng - 等
 a while - yi2hui4 - 一会
+mr, sir - xia1nsheng - 先生
+count - shu3 - 数
 
 
 # Lesson 10
 
 office - ba4ngo1ngshi4 - 办公室
 office work - ba4ngo1ng - 办公
+employee, office worker - zhi2yua2n - 职员
 look for - zha3o - 找
 be located at, be located in, in, at - za4i - 在
 home - jia1 - 家
@@ -92,6 +162,11 @@ all, both - do1u - 都
 and - he2 - 和
 student - xue2sheng - 学生
 do not matter, never to mind - me2i she2nme - 没什么
+introduce - jie3sha4o - 介绍
+people - we4i - 位
+professor - jia4osho4u - 教授
+president, principal - xia4ozha3ng - 校长
+overseas - liu2 - 留
 
 
 # Lesson 12
@@ -99,6 +174,8 @@ do not matter, never to mind - me2i she2nme - 没什么
 language - yu3ya2n - 语言
 university - da4xue2 - 大学
 how, what about - ze3nmeya4ng - 怎么样
+think, feel - jue2de - 觉得
+relatively, comparatively - bi3jia4o - 比较
 grammar - yu3fa3 - 语法
 listen - ti1ng - 听
 easy - ro2ngyi4 - 容易
@@ -114,6 +191,7 @@ roommate - to2ngwu1 - 同屋
 # Lesson 13
 
 have not, not yet, did not - me2i, me2iyo3u - 没, 没有
+box, case, trunk - xia1ngzi - 箱子
 have, there be - yo3u - 有
 here - zhe4r - 这儿
 heavy - zho4ng - 重
@@ -124,11 +202,18 @@ old, used - jiu4 - 旧
 medicine, drug - ya4o - 药
 tea leaves - cha2ye4 - 茶叶
 inside - li3 - 里
+daily necessities - ri4yo4ngpi3n - 日用品
 (article classifier), (piece classifier) - jia4n - 件
 clothes - yi1fu - 衣服
 (tool with handle classifier) - ba3 - 把
+umbrella - yu3sa3n - 雨伞
+rain - yu3 - 雨
+bottle - pi2ng - 瓶
 water - shui3 - 水
+(book classifier) - be3n - 本
+dictionary - ci2dia3n - 词典
 piece, sheet, paper - zha1ng - 张
+(pen classifier) - zhi1 - 支
 pen, pencil, writing brush - bi3 - 笔
 
 
@@ -150,6 +235,7 @@ vehicle - che1 - 车
 bicycle - zi4xi2ngche1 - 自行车
 auto, car, bus - qi4che1 - 汽车
 taxi - chu1zu1che1 - 出租车
+(vehicle classifier) - lia4ng - 辆
 color - ya2nse4 - 颜色
 blue - la2n - 蓝
 
@@ -168,3 +254,4 @@ shop - sha1ngdia4n - 商店
 small - xia3o - 小
 about, approximately - da4ga4i - 大概
 more, over, odd - duo1 - 多
+outside - wa4i - 外

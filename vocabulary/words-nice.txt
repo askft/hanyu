@@ -166,7 +166,7 @@ blue | lán | 蓝
 black | hēi | 黑
 white | bái | 白
 so so | mǎmahūhū | 马马虎虎
-but | kěshì, dānshì | 可是, 单是
+but | kěshì, dànshì | 可是, 但是
 or | háishì | 还是
 only, just, merely | zhǐ | 只
 about, approximately | dàgài | 大概
@@ -219,6 +219,8 @@ good | hǎo | 好
 bad | huài | 坏
 small | xiǎo | 小
 big | dà | 大
+short | duǎn | 短
+long | zhǎng, cháng | 长
 new | xīn | 新
 old, used | jiù | 旧
 busy | máng | 忙
@@ -244,6 +246,8 @@ very | hěn | 很
 extremely | fēicháng | 非常
 # Verbs
 be | shì | 是
+be able to, can | néng | 能
+be permitted to, may | kěyǐ | 可以
 be sure | quèdìng | 确定
 buy | mǎi | 买
 close | guān | 关

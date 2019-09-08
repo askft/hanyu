@@ -259,7 +259,7 @@ white                   - ba2i              - 白
 
 so so                   - ma3mahu1hu1       - 马马虎虎
 
-but                     - ke3shi4, da1nshi4 - 可是, 单是
+but                     - ke3shi4, da4nshi4 - 可是, 但是
 or                      - ha2ishi4          - 还是
 
 only, just, merely      - zhi3              - 只
@@ -339,6 +339,8 @@ good                    - ha3o              - 好
 bad                     - hua4i             - 坏
 small                   - xia3o             - 小
 big                     - da4               - 大
+short                   - dua3n             - 短
+long                    - zha3ng, cha2ng    - 长
 new                     - xi1n              - 新
 old, used               - jiu4              - 旧
 busy                    - ma2ng             - 忙
@@ -372,6 +374,8 @@ extremely               - fe1icha2ng        - 非常
 ; https://resources.allsetlearning.com/chinese/grammar/Comparing_%22kending%22_%22queding%22_and_%E2%80%9Cyiding%22
 
 be                      - shi4              - 是
+be able to, can         - ne2ng             - 能
+be permitted to, may    - ke3yi3            - 可以
 be sure                 - que4di4ng         - 确定
 buy                     - ma3i              - 买
 close                   - gua1n             - 关
